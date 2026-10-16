@@ -1,0 +1,5054 @@
+{
+ "persons": [
+  {
+   "id": "P001",
+   "name": "Nikhil Mishra",
+   "pan": "AFQOF5557Z",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P002",
+   "name": "Rohan Trivedi",
+   "pan": "HQXJE2139B",
+   "city": "Jaipur"
+  },
+  {
+   "id": "P003",
+   "name": "Varun Agarwal",
+   "pan": "ZWWJL6977F",
+   "city": "Jaipur"
+  },
+  {
+   "id": "P004",
+   "name": "Sanjay Kulkarni",
+   "pan": "BXOSF9179M",
+   "city": "Pune"
+  },
+  {
+   "id": "P005",
+   "name": "Harsh Verma",
+   "pan": "DDTOT8019S",
+   "city": "Pune"
+  },
+  {
+   "id": "P006",
+   "name": "Isha Reddy",
+   "pan": "RNGQC8123F",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P007",
+   "name": "Rekha Bhatt",
+   "pan": "WVHBW2290C",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P008",
+   "name": "Isha Bhatt",
+   "pan": "LNDFI4770S",
+   "city": "Pune"
+  },
+  {
+   "id": "P009",
+   "name": "Pooja Iyer",
+   "pan": "XWBGR4510R",
+   "city": "Pune"
+  },
+  {
+   "id": "P010",
+   "name": "Nisha Reddy",
+   "pan": "GELKH5092C",
+   "city": "Indore"
+  },
+  {
+   "id": "P011",
+   "name": "Neha Trivedi",
+   "pan": "VZYWE8956P",
+   "city": "Indore"
+  },
+  {
+   "id": "P012",
+   "name": "Deepak Trivedi",
+   "pan": "BIBMX9701F",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P013",
+   "name": "Isha Menon",
+   "pan": "GKRHI2188A",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P014",
+   "name": "Rekha Reddy",
+   "pan": "YDDCO5462J",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "P015",
+   "name": "Gaurav Menon",
+   "pan": "FQGMX1832C",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "P016",
+   "name": "Deepak Trivedi",
+   "pan": "DDIXU1653L",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P017",
+   "name": "Divya Trivedi",
+   "pan": "WKQEY3662Z",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P018",
+   "name": "Alok Verma",
+   "pan": "JVWFR7528K",
+   "city": "Pune"
+  },
+  {
+   "id": "P019",
+   "name": "Sanjay Bansal",
+   "pan": "EBLNU4228L",
+   "city": "Indore"
+  },
+  {
+   "id": "P020",
+   "name": "Sanjay Trivedi",
+   "pan": "VHFUP6279O",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P021",
+   "name": "Nikhil Pillai",
+   "pan": "UYTRH6491C",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P022",
+   "name": "Sanjay Desai",
+   "pan": "DRXWX7965H",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "P023",
+   "name": "Manish Shah",
+   "pan": "OXDDM9702R",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "P024",
+   "name": "Manish Iyer",
+   "pan": "SGIXC3471H",
+   "city": "Indore"
+  },
+  {
+   "id": "P025",
+   "name": "Rohan Chopra",
+   "pan": "KOKFK1320Y",
+   "city": "Indore"
+  },
+  {
+   "id": "P026",
+   "name": "Isha Rao",
+   "pan": "SVXZN7455S",
+   "city": "Jaipur"
+  },
+  {
+   "id": "P027",
+   "name": "Amit Iyer",
+   "pan": "QDMBJ4467O",
+   "city": "Jaipur"
+  },
+  {
+   "id": "P028",
+   "name": "Vikram Pillai",
+   "pan": "ROFST3749T",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P029",
+   "name": "Nisha Bansal",
+   "pan": "UJLJN6590A",
+   "city": "Pune"
+  },
+  {
+   "id": "P030",
+   "name": "Rahul Desai",
+   "pan": "VCWGM7209K",
+   "city": "Indore"
+  },
+  {
+   "id": "P031",
+   "name": "Ritu Nair",
+   "pan": "JGHPW1166Q",
+   "city": "Indore"
+  },
+  {
+   "id": "P032",
+   "name": "Anjali Saxena",
+   "pan": "IZOJL6023I",
+   "city": "Indore"
+  },
+  {
+   "id": "P033",
+   "name": "Rahul Reddy",
+   "pan": "TYRET5530X",
+   "city": "Indore"
+  },
+  {
+   "id": "P034",
+   "name": "Priya Patel",
+   "pan": "OMLEB8827D",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P035",
+   "name": "Sanjay Pillai",
+   "pan": "BQBDO5978C",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P036",
+   "name": "Arjun Iyer",
+   "pan": "EEBAL8699J",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "P037",
+   "name": "Sneha Agarwal",
+   "pan": "PVXLM5982W",
+   "city": "Mumbai"
+  },
+  {
+   "id": "P038",
+   "name": "Meera Verma",
+   "pan": "LBVBW2479T",
+   "city": "Surat"
+  },
+  {
+   "id": "P039",
+   "name": "Nikhil Gupta",
+   "pan": "YLVVZ2381Q",
+   "city": "Surat"
+  },
+  {
+   "id": "P040",
+   "name": "Kavita Menon",
+   "pan": "RBQII7333J",
+   "city": "Surat"
+  },
+  {
+   "id": "P041",
+   "name": "Meera Trivedi",
+   "pan": "JUVRV9624C",
+   "city": "Surat"
+  },
+  {
+   "id": "P042",
+   "name": "Rajesh Sharma",
+   "pan": "HUNOT9626B",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P043",
+   "name": "Anil Kapoor",
+   "pan": "BJSZP8355H",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P044",
+   "name": "Vikas Malhotra",
+   "pan": "KKJKC4678A",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P045",
+   "name": "Sunita Malhotra",
+   "pan": "TMPXA4533E",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P046",
+   "name": "Kavita Reddy",
+   "pan": "UGDGQ8489C",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P047",
+   "name": "Shalini Trivedi",
+   "pan": "ANGDL6780H",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P048",
+   "name": "Sneha Iyer",
+   "pan": "NJYOU9316R",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P049",
+   "name": "Swati Pillai",
+   "pan": "BKJTJ2106L",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P050",
+   "name": "Varun Bansal",
+   "pan": "TIBOV3868Y",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "P051",
+   "name": "Tanvi Verma",
+   "pan": "XKZMM9507I",
+   "city": "Mumbai"
+  }
+ ],
+ "companies": [
+  {
+   "id": "C001",
+   "name": "Apex Polymers Pvt Ltd",
+   "gstin": "24TRXCK1488C1Z4",
+   "city": "Mumbai",
+   "incorporated_on": "2012-04-05",
+   "is_client": true
+  },
+  {
+   "id": "C002",
+   "name": "Bluewave Logistics Pvt Ltd",
+   "gstin": "24CCWPU8527R1Z2",
+   "city": "Jaipur",
+   "incorporated_on": "2011-06-04",
+   "is_client": false
+  },
+  {
+   "id": "C003",
+   "name": "Crestline Foods Pvt Ltd",
+   "gstin": "24HYRFI1916H1Z1",
+   "city": "Pune",
+   "incorporated_on": "2010-08-13",
+   "is_client": false
+  },
+  {
+   "id": "C004",
+   "name": "Deccan Steel Works Pvt Ltd",
+   "gstin": "24ERPKP8668Q1Z5",
+   "city": "Mumbai",
+   "incorporated_on": "2008-03-21",
+   "is_client": true
+  },
+  {
+   "id": "C005",
+   "name": "Evergreen Agro Pvt Ltd",
+   "gstin": "24TOUNA6310P1Z1",
+   "city": "Mumbai",
+   "incorporated_on": "2011-03-12",
+   "is_client": false
+  },
+  {
+   "id": "C006",
+   "name": "Falcon Auto Parts Pvt Ltd",
+   "gstin": "24WLFOS4295W1Z5",
+   "city": "Pune",
+   "incorporated_on": "2010-05-17",
+   "is_client": false
+  },
+  {
+   "id": "C007",
+   "name": "Ganga Packaging Pvt Ltd",
+   "gstin": "24JKWBQ2612B1Z7",
+   "city": "Indore",
+   "incorporated_on": "2008-11-14",
+   "is_client": true
+  },
+  {
+   "id": "C008",
+   "name": "Horizon Pharma Pvt Ltd",
+   "gstin": "24SSURM4111J1Z4",
+   "city": "Ahmedabad",
+   "incorporated_on": "2019-05-14",
+   "is_client": false
+  },
+  {
+   "id": "C009",
+   "name": "Indus Electricals Pvt Ltd",
+   "gstin": "24GPQKP9565K1Z5",
+   "city": "Mumbai",
+   "incorporated_on": "2017-02-19",
+   "is_client": false
+  },
+  {
+   "id": "C010",
+   "name": "Jade Ceramics Pvt Ltd",
+   "gstin": "24WJEVS9666A1Z9",
+   "city": "Bengaluru",
+   "incorporated_on": "2009-06-03",
+   "is_client": true
+  },
+  {
+   "id": "C011",
+   "name": "Kaveri Spinning Mills Pvt Ltd",
+   "gstin": "24LSOCY3442R1Z1",
+   "city": "Ahmedabad",
+   "incorporated_on": "2013-03-24",
+   "is_client": false
+  },
+  {
+   "id": "C012",
+   "name": "Lotus Chemicals Pvt Ltd",
+   "gstin": "24TGESJ1634P1Z4",
+   "city": "Pune",
+   "incorporated_on": "2018-11-28",
+   "is_client": false
+  },
+  {
+   "id": "C013",
+   "name": "Monsoon Textiles Pvt Ltd",
+   "gstin": "24EZGCL6139N1Z9",
+   "city": "Indore",
+   "incorporated_on": "2005-02-09",
+   "is_client": true
+  },
+  {
+   "id": "C014",
+   "name": "Nirmal Paper Products Pvt Ltd",
+   "gstin": "24ISOER7211V1Z3",
+   "city": "Mumbai",
+   "incorporated_on": "2014-11-14",
+   "is_client": false
+  },
+  {
+   "id": "C015",
+   "name": "Orbit Tools Pvt Ltd",
+   "gstin": "24ZPTLX4185W1Z7",
+   "city": "Bengaluru",
+   "incorporated_on": "2005-01-08",
+   "is_client": false
+  },
+  {
+   "id": "C016",
+   "name": "Pinnacle Plastics Pvt Ltd",
+   "gstin": "24MGGQT9540P1Z4",
+   "city": "Indore",
+   "incorporated_on": "2010-12-28",
+   "is_client": true
+  },
+  {
+   "id": "C017",
+   "name": "Quartz Glassware Pvt Ltd",
+   "gstin": "24TUXMH8956A1Z7",
+   "city": "Jaipur",
+   "incorporated_on": "2018-09-24",
+   "is_client": false
+  },
+  {
+   "id": "C018",
+   "name": "Radiant Lighting Pvt Ltd",
+   "gstin": "24QUQTY4266A1Z3",
+   "city": "Mumbai",
+   "incorporated_on": "2006-06-08",
+   "is_client": false
+  },
+  {
+   "id": "C019",
+   "name": "Sapphire Garments Pvt Ltd",
+   "gstin": "24RYKSB4978D1Z5",
+   "city": "Pune",
+   "incorporated_on": "2005-05-19",
+   "is_client": true
+  },
+  {
+   "id": "C020",
+   "name": "Trident Hardware Pvt Ltd",
+   "gstin": "24TZHVN8921O1Z7",
+   "city": "Indore",
+   "incorporated_on": "2009-07-06",
+   "is_client": false
+  },
+  {
+   "id": "C021",
+   "name": "Unity Dairy Pvt Ltd",
+   "gstin": "24MUCFR6016V1Z6",
+   "city": "Indore",
+   "incorporated_on": "2020-11-23",
+   "is_client": false
+  },
+  {
+   "id": "C022",
+   "name": "Vertex Cables Pvt Ltd",
+   "gstin": "24HSDBB5786W1Z3",
+   "city": "Mumbai",
+   "incorporated_on": "2012-06-06",
+   "is_client": true
+  },
+  {
+   "id": "C023",
+   "name": "Woodland Furniture Pvt Ltd",
+   "gstin": "24WZHQP2625Y1Z4",
+   "city": "Bengaluru",
+   "incorporated_on": "2019-08-10",
+   "is_client": false
+  },
+  {
+   "id": "C024",
+   "name": "Yamuna Rice Mills Pvt Ltd",
+   "gstin": "24RYLOQ5352E1Z2",
+   "city": "Mumbai",
+   "incorporated_on": "2013-11-19",
+   "is_client": false
+  },
+  {
+   "id": "C025",
+   "name": "Shreeji Impex",
+   "gstin": "24LMQUP6766Q1Z2",
+   "city": "Surat",
+   "incorporated_on": "2026-02-05",
+   "is_client": false
+  },
+  {
+   "id": "C026",
+   "name": "Balaji Tradelink",
+   "gstin": "24MOUXL4084K1Z8",
+   "city": "Surat",
+   "incorporated_on": "2026-02-13",
+   "is_client": false
+  },
+  {
+   "id": "C027",
+   "name": "Om Sai Enterprises",
+   "gstin": "24GLLNE7108J1Z7",
+   "city": "Surat",
+   "incorporated_on": "2026-02-02",
+   "is_client": false
+  },
+  {
+   "id": "C028",
+   "name": "Maruti Commodities",
+   "gstin": "24CRXIR7421E1Z2",
+   "city": "Surat",
+   "incorporated_on": "2026-02-11",
+   "is_client": false
+  },
+  {
+   "id": "C029",
+   "name": "Sharma Traders Pvt Ltd",
+   "gstin": "24EFYMF3253E1Z2",
+   "city": "Ahmedabad",
+   "incorporated_on": "2012-06-14",
+   "is_client": true
+  },
+  {
+   "id": "C030",
+   "name": "Kavya Supplies",
+   "gstin": "24PEESQ3712X1Z8",
+   "city": "Ahmedabad",
+   "incorporated_on": "2025-11-02",
+   "is_client": false
+  },
+  {
+   "id": "C031",
+   "name": "Northstar Infra Pvt Ltd",
+   "gstin": "24XDLYF8391L1Z1",
+   "city": "Ahmedabad",
+   "incorporated_on": "2015-03-09",
+   "is_client": true
+  },
+  {
+   "id": "C032",
+   "name": "Zenith Holdings LLP",
+   "gstin": "24VQUDH8740W1Z3",
+   "city": "Ahmedabad",
+   "incorporated_on": "2024-08-19",
+   "is_client": false
+  },
+  {
+   "id": "C033",
+   "name": "QuickPay Collections",
+   "gstin": "24HWBRH7029N1Z7",
+   "city": "Mumbai",
+   "incorporated_on": "2025-12-05",
+   "is_client": false
+  }
+ ],
+ "accounts": [
+  {
+   "id": "A001",
+   "name": "Apex Polymers Pvt Ltd / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX7924"
+  },
+  {
+   "id": "A002",
+   "name": "Varun Agarwal / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX5374"
+  },
+  {
+   "id": "A003",
+   "name": "Bluewave Logistics Pvt Ltd / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX2169"
+  },
+  {
+   "id": "A004",
+   "name": "Harsh Verma / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX3266"
+  },
+  {
+   "id": "A005",
+   "name": "Crestline Foods Pvt Ltd / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX9085"
+  },
+  {
+   "id": "A006",
+   "name": "Isha Reddy / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX5315"
+  },
+  {
+   "id": "A007",
+   "name": "Deccan Steel Works Pvt Ltd / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX3927"
+  },
+  {
+   "id": "A008",
+   "name": "Evergreen Agro Pvt Ltd / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX9727"
+  },
+  {
+   "id": "A009",
+   "name": "Isha Bhatt / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX1964"
+  },
+  {
+   "id": "A010",
+   "name": "Pooja Iyer / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX8744"
+  },
+  {
+   "id": "A011",
+   "name": "Falcon Auto Parts Pvt Ltd / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX8749"
+  },
+  {
+   "id": "A012",
+   "name": "Nisha Reddy / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX2604"
+  },
+  {
+   "id": "A013",
+   "name": "Neha Trivedi / Axis Bank",
+   "bank": "Axis Bank",
+   "number": "XXXX1960"
+  },
+  {
+   "id": "A014",
+   "name": "Ganga Packaging Pvt Ltd / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX7209"
+  },
+  {
+   "id": "A015",
+   "name": "Deepak Trivedi / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX2312"
+  },
+  {
+   "id": "A016",
+   "name": "Horizon Pharma Pvt Ltd / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX2122"
+  },
+  {
+   "id": "A017",
+   "name": "Isha Menon / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX2638"
+  },
+  {
+   "id": "A018",
+   "name": "Indus Electricals Pvt Ltd / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX9808"
+  },
+  {
+   "id": "A019",
+   "name": "Jade Ceramics Pvt Ltd / SBI",
+   "bank": "SBI",
+   "number": "XXXX1722"
+  },
+  {
+   "id": "A020",
+   "name": "Deepak Trivedi / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX2684"
+  },
+  {
+   "id": "A021",
+   "name": "Kaveri Spinning Mills Pvt Ltd / Axis Bank",
+   "bank": "Axis Bank",
+   "number": "XXXX1406"
+  },
+  {
+   "id": "A022",
+   "name": "Alok Verma / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX5573"
+  },
+  {
+   "id": "A023",
+   "name": "Lotus Chemicals Pvt Ltd / SBI",
+   "bank": "SBI",
+   "number": "XXXX9346"
+  },
+  {
+   "id": "A024",
+   "name": "Sanjay Bansal / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX6409"
+  },
+  {
+   "id": "A025",
+   "name": "Monsoon Textiles Pvt Ltd / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX6143"
+  },
+  {
+   "id": "A026",
+   "name": "Sanjay Trivedi / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX4501"
+  },
+  {
+   "id": "A027",
+   "name": "Nirmal Paper Products Pvt Ltd / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX6085"
+  },
+  {
+   "id": "A028",
+   "name": "Sanjay Desai / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX9486"
+  },
+  {
+   "id": "A029",
+   "name": "Orbit Tools Pvt Ltd / Axis Bank",
+   "bank": "Axis Bank",
+   "number": "XXXX9270"
+  },
+  {
+   "id": "A030",
+   "name": "Manish Iyer / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX4505"
+  },
+  {
+   "id": "A031",
+   "name": "Pinnacle Plastics Pvt Ltd / Axis Bank",
+   "bank": "Axis Bank",
+   "number": "XXXX1096"
+  },
+  {
+   "id": "A032",
+   "name": "Amit Iyer / Axis Bank",
+   "bank": "Axis Bank",
+   "number": "XXXX5558"
+  },
+  {
+   "id": "A033",
+   "name": "Quartz Glassware Pvt Ltd / Axis Bank",
+   "bank": "Axis Bank",
+   "number": "XXXX5133"
+  },
+  {
+   "id": "A034",
+   "name": "Radiant Lighting Pvt Ltd / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX2876"
+  },
+  {
+   "id": "A035",
+   "name": "Sapphire Garments Pvt Ltd / Axis Bank",
+   "bank": "Axis Bank",
+   "number": "XXXX2729"
+  },
+  {
+   "id": "A036",
+   "name": "Rahul Desai / SBI",
+   "bank": "SBI",
+   "number": "XXXX3979"
+  },
+  {
+   "id": "A037",
+   "name": "Trident Hardware Pvt Ltd / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX4954"
+  },
+  {
+   "id": "A038",
+   "name": "Anjali Saxena / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX4155"
+  },
+  {
+   "id": "A039",
+   "name": "Unity Dairy Pvt Ltd / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX5636"
+  },
+  {
+   "id": "A040",
+   "name": "Vertex Cables Pvt Ltd / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX7818"
+  },
+  {
+   "id": "A041",
+   "name": "Arjun Iyer / SBI",
+   "bank": "SBI",
+   "number": "XXXX5632"
+  },
+  {
+   "id": "A042",
+   "name": "Woodland Furniture Pvt Ltd / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX8438"
+  },
+  {
+   "id": "A043",
+   "name": "Sneha Agarwal / SBI",
+   "bank": "SBI",
+   "number": "XXXX9199"
+  },
+  {
+   "id": "A044",
+   "name": "Yamuna Rice Mills Pvt Ltd / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX9090"
+  },
+  {
+   "id": "A045",
+   "name": "Shreeji Impex / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX9307"
+  },
+  {
+   "id": "A046",
+   "name": "Balaji Tradelink / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX3827"
+  },
+  {
+   "id": "A047",
+   "name": "Om Sai Enterprises / SBI",
+   "bank": "SBI",
+   "number": "XXXX3463"
+  },
+  {
+   "id": "A048",
+   "name": "Maruti Commodities / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX7937"
+  },
+  {
+   "id": "A049",
+   "name": "Sharma Traders Pvt Ltd / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX6517"
+  },
+  {
+   "id": "A050",
+   "name": "Rajesh Sharma / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX3147"
+  },
+  {
+   "id": "A051",
+   "name": "Kavya Supplies / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX4918"
+  },
+  {
+   "id": "A052",
+   "name": "Northstar Infra Pvt Ltd / SBI",
+   "bank": "SBI",
+   "number": "XXXX2623"
+  },
+  {
+   "id": "A053",
+   "name": "Zenith Holdings LLP / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX9647"
+  },
+  {
+   "id": "A054",
+   "name": "Kavita Reddy / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX9189"
+  },
+  {
+   "id": "A055",
+   "name": "Shalini Trivedi / Kotak Bank",
+   "bank": "Kotak Bank",
+   "number": "XXXX7825"
+  },
+  {
+   "id": "A056",
+   "name": "Sneha Iyer / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX7397"
+  },
+  {
+   "id": "A057",
+   "name": "Swati Pillai / ICICI Bank",
+   "bank": "ICICI Bank",
+   "number": "XXXX2698"
+  },
+  {
+   "id": "A058",
+   "name": "Varun Bansal / Bank of Baroda",
+   "bank": "Bank of Baroda",
+   "number": "XXXX8612"
+  },
+  {
+   "id": "A059",
+   "name": "QuickPay Collections / HDFC Bank",
+   "bank": "HDFC Bank",
+   "number": "XXXX7955"
+  }
+ ],
+ "addresses": [
+  {
+   "id": "ADDR001",
+   "name": "Plot 7, Industrial Estate Phase 3, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR002",
+   "name": "Plot 72, Industrial Estate Phase 2, Jaipur",
+   "city": "Jaipur"
+  },
+  {
+   "id": "ADDR003",
+   "name": "Plot 137, Industrial Estate Phase 2, Pune",
+   "city": "Pune"
+  },
+  {
+   "id": "ADDR004",
+   "name": "Plot 194, Industrial Estate Phase 1, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR005",
+   "name": "Plot 161, Industrial Estate Phase 3, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR006",
+   "name": "Plot 33, Industrial Estate Phase 4, Pune",
+   "city": "Pune"
+  },
+  {
+   "id": "ADDR007",
+   "name": "Plot 49, Industrial Estate Phase 1, Indore",
+   "city": "Indore"
+  },
+  {
+   "id": "ADDR008",
+   "name": "Plot 100, Industrial Estate Phase 3, Ahmedabad",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "ADDR009",
+   "name": "Plot 173, Industrial Estate Phase 2, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR010",
+   "name": "Plot 130, Industrial Estate Phase 3, Bengaluru",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "ADDR011",
+   "name": "Plot 86, Industrial Estate Phase 2, Ahmedabad",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "ADDR012",
+   "name": "Plot 189, Industrial Estate Phase 3, Pune",
+   "city": "Pune"
+  },
+  {
+   "id": "ADDR013",
+   "name": "Plot 174, Industrial Estate Phase 3, Indore",
+   "city": "Indore"
+  },
+  {
+   "id": "ADDR014",
+   "name": "Plot 185, Industrial Estate Phase 3, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR015",
+   "name": "Plot 51, Industrial Estate Phase 2, Bengaluru",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "ADDR016",
+   "name": "Plot 141, Industrial Estate Phase 4, Indore",
+   "city": "Indore"
+  },
+  {
+   "id": "ADDR017",
+   "name": "Plot 77, Industrial Estate Phase 4, Jaipur",
+   "city": "Jaipur"
+  },
+  {
+   "id": "ADDR018",
+   "name": "Plot 121, Industrial Estate Phase 1, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR019",
+   "name": "Plot 80, Industrial Estate Phase 1, Pune",
+   "city": "Pune"
+  },
+  {
+   "id": "ADDR020",
+   "name": "Plot 93, Industrial Estate Phase 4, Indore",
+   "city": "Indore"
+  },
+  {
+   "id": "ADDR021",
+   "name": "Plot 126, Industrial Estate Phase 2, Indore",
+   "city": "Indore"
+  },
+  {
+   "id": "ADDR022",
+   "name": "Plot 50, Industrial Estate Phase 3, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR023",
+   "name": "Plot 199, Industrial Estate Phase 4, Bengaluru",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "ADDR024",
+   "name": "Plot 176, Industrial Estate Phase 2, Mumbai",
+   "city": "Mumbai"
+  },
+  {
+   "id": "ADDR025",
+   "name": "Shop 14, Ring Road Textile Market, Surat",
+   "city": "Surat"
+  },
+  {
+   "id": "ADDR026",
+   "name": "12, Ashram Road, Ahmedabad",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "ADDR027",
+   "name": "B-7, Naroda GIDC, Ahmedabad",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "ADDR028",
+   "name": "Tower B, SG Highway, Ahmedabad",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "ADDR029",
+   "name": "Office 402, Prahlad Nagar, Ahmedabad",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "ADDR030",
+   "name": "Unit 9, Andheri East, Mumbai",
+   "city": "Mumbai"
+  }
+ ],
+ "director_of": [
+  {
+   "from": "P001",
+   "to": "C001",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P002",
+   "to": "C002",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P003",
+   "to": "C002",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P004",
+   "to": "C003",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P005",
+   "to": "C003",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P006",
+   "to": "C004",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P007",
+   "to": "C005",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P008",
+   "to": "C006",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P009",
+   "to": "C006",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P010",
+   "to": "C007",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P011",
+   "to": "C007",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P012",
+   "to": "C008",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P013",
+   "to": "C009",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P014",
+   "to": "C010",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P015",
+   "to": "C010",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P016",
+   "to": "C011",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P017",
+   "to": "C011",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P018",
+   "to": "C012",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P019",
+   "to": "C013",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P020",
+   "to": "C014",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P021",
+   "to": "C014",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P022",
+   "to": "C015",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P023",
+   "to": "C015",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P024",
+   "to": "C016",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P025",
+   "to": "C016",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P026",
+   "to": "C017",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P027",
+   "to": "C017",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P028",
+   "to": "C018",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P029",
+   "to": "C019",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P030",
+   "to": "C020",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P031",
+   "to": "C020",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P032",
+   "to": "C021",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P033",
+   "to": "C021",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P034",
+   "to": "C022",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P035",
+   "to": "C022",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P036",
+   "to": "C023",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P037",
+   "to": "C024",
+   "since": "2019-04-01"
+  },
+  {
+   "from": "P038",
+   "to": "C025",
+   "since": "2026-02-01"
+  },
+  {
+   "from": "P039",
+   "to": "C026",
+   "since": "2026-02-01"
+  },
+  {
+   "from": "P040",
+   "to": "C027",
+   "since": "2026-02-01"
+  },
+  {
+   "from": "P041",
+   "to": "C028",
+   "since": "2026-02-01"
+  },
+  {
+   "from": "P042",
+   "to": "C029",
+   "since": "2012-06-14"
+  },
+  {
+   "from": "P043",
+   "to": "C030",
+   "since": "2025-11-02"
+  },
+  {
+   "from": "P044",
+   "to": "C031",
+   "since": "2015-03-09"
+  },
+  {
+   "from": "P045",
+   "to": "C032",
+   "since": "2024-08-19"
+  },
+  {
+   "from": "P051",
+   "to": "C033",
+   "since": "2025-12-05"
+  }
+ ],
+ "relative_of": [
+  {
+   "from": "P029",
+   "to": "P006",
+   "relation": "cousin"
+  },
+  {
+   "from": "P003",
+   "to": "P028",
+   "relation": "cousin"
+  },
+  {
+   "from": "P021",
+   "to": "P017",
+   "relation": "spouse"
+  },
+  {
+   "from": "P006",
+   "to": "P015",
+   "relation": "cousin"
+  },
+  {
+   "from": "P037",
+   "to": "P002",
+   "relation": "cousin"
+  },
+  {
+   "from": "P018",
+   "to": "P037",
+   "relation": "spouse"
+  },
+  {
+   "from": "P038",
+   "to": "P040",
+   "relation": "brother"
+  },
+  {
+   "from": "P039",
+   "to": "P041",
+   "relation": "cousin"
+  },
+  {
+   "from": "P042",
+   "to": "P043",
+   "relation": "brother-in-law"
+  },
+  {
+   "from": "P044",
+   "to": "P045",
+   "relation": "spouse"
+  }
+ ],
+ "registered_at": [
+  {
+   "from": "C001",
+   "to": "ADDR001"
+  },
+  {
+   "from": "C002",
+   "to": "ADDR002"
+  },
+  {
+   "from": "C003",
+   "to": "ADDR003"
+  },
+  {
+   "from": "C004",
+   "to": "ADDR004"
+  },
+  {
+   "from": "C005",
+   "to": "ADDR005"
+  },
+  {
+   "from": "C006",
+   "to": "ADDR006"
+  },
+  {
+   "from": "C007",
+   "to": "ADDR007"
+  },
+  {
+   "from": "C008",
+   "to": "ADDR008"
+  },
+  {
+   "from": "C009",
+   "to": "ADDR009"
+  },
+  {
+   "from": "C010",
+   "to": "ADDR010"
+  },
+  {
+   "from": "C011",
+   "to": "ADDR011"
+  },
+  {
+   "from": "C012",
+   "to": "ADDR012"
+  },
+  {
+   "from": "C013",
+   "to": "ADDR013"
+  },
+  {
+   "from": "C014",
+   "to": "ADDR014"
+  },
+  {
+   "from": "C015",
+   "to": "ADDR015"
+  },
+  {
+   "from": "C016",
+   "to": "ADDR016"
+  },
+  {
+   "from": "C017",
+   "to": "ADDR017"
+  },
+  {
+   "from": "C018",
+   "to": "ADDR018"
+  },
+  {
+   "from": "C019",
+   "to": "ADDR019"
+  },
+  {
+   "from": "C020",
+   "to": "ADDR020"
+  },
+  {
+   "from": "C021",
+   "to": "ADDR021"
+  },
+  {
+   "from": "C022",
+   "to": "ADDR022"
+  },
+  {
+   "from": "C023",
+   "to": "ADDR023"
+  },
+  {
+   "from": "C024",
+   "to": "ADDR024"
+  },
+  {
+   "from": "C025",
+   "to": "ADDR025"
+  },
+  {
+   "from": "C026",
+   "to": "ADDR025"
+  },
+  {
+   "from": "C027",
+   "to": "ADDR025"
+  },
+  {
+   "from": "C028",
+   "to": "ADDR025"
+  },
+  {
+   "from": "C029",
+   "to": "ADDR026"
+  },
+  {
+   "from": "C030",
+   "to": "ADDR027"
+  },
+  {
+   "from": "C031",
+   "to": "ADDR028"
+  },
+  {
+   "from": "C032",
+   "to": "ADDR029"
+  },
+  {
+   "from": "C033",
+   "to": "ADDR030"
+  }
+ ],
+ "holds": [
+  {
+   "from": "C001",
+   "to": "A001"
+  },
+  {
+   "from": "P003",
+   "to": "A002"
+  },
+  {
+   "from": "C002",
+   "to": "A003"
+  },
+  {
+   "from": "P005",
+   "to": "A004"
+  },
+  {
+   "from": "C003",
+   "to": "A005"
+  },
+  {
+   "from": "P006",
+   "to": "A006"
+  },
+  {
+   "from": "C004",
+   "to": "A007"
+  },
+  {
+   "from": "C005",
+   "to": "A008"
+  },
+  {
+   "from": "P008",
+   "to": "A009"
+  },
+  {
+   "from": "P009",
+   "to": "A010"
+  },
+  {
+   "from": "C006",
+   "to": "A011"
+  },
+  {
+   "from": "P010",
+   "to": "A012"
+  },
+  {
+   "from": "P011",
+   "to": "A013"
+  },
+  {
+   "from": "C007",
+   "to": "A014"
+  },
+  {
+   "from": "P012",
+   "to": "A015"
+  },
+  {
+   "from": "C008",
+   "to": "A016"
+  },
+  {
+   "from": "P013",
+   "to": "A017"
+  },
+  {
+   "from": "C009",
+   "to": "A018"
+  },
+  {
+   "from": "C010",
+   "to": "A019"
+  },
+  {
+   "from": "P016",
+   "to": "A020"
+  },
+  {
+   "from": "C011",
+   "to": "A021"
+  },
+  {
+   "from": "P018",
+   "to": "A022"
+  },
+  {
+   "from": "C012",
+   "to": "A023"
+  },
+  {
+   "from": "P019",
+   "to": "A024"
+  },
+  {
+   "from": "C013",
+   "to": "A025"
+  },
+  {
+   "from": "P020",
+   "to": "A026"
+  },
+  {
+   "from": "C014",
+   "to": "A027"
+  },
+  {
+   "from": "P022",
+   "to": "A028"
+  },
+  {
+   "from": "C015",
+   "to": "A029"
+  },
+  {
+   "from": "P024",
+   "to": "A030"
+  },
+  {
+   "from": "C016",
+   "to": "A031"
+  },
+  {
+   "from": "P027",
+   "to": "A032"
+  },
+  {
+   "from": "C017",
+   "to": "A033"
+  },
+  {
+   "from": "C018",
+   "to": "A034"
+  },
+  {
+   "from": "C019",
+   "to": "A035"
+  },
+  {
+   "from": "P030",
+   "to": "A036"
+  },
+  {
+   "from": "C020",
+   "to": "A037"
+  },
+  {
+   "from": "P032",
+   "to": "A038"
+  },
+  {
+   "from": "C021",
+   "to": "A039"
+  },
+  {
+   "from": "C022",
+   "to": "A040"
+  },
+  {
+   "from": "P036",
+   "to": "A041"
+  },
+  {
+   "from": "C023",
+   "to": "A042"
+  },
+  {
+   "from": "P037",
+   "to": "A043"
+  },
+  {
+   "from": "C024",
+   "to": "A044"
+  },
+  {
+   "from": "C025",
+   "to": "A045"
+  },
+  {
+   "from": "C026",
+   "to": "A046"
+  },
+  {
+   "from": "C027",
+   "to": "A047"
+  },
+  {
+   "from": "C028",
+   "to": "A048"
+  },
+  {
+   "from": "C029",
+   "to": "A049"
+  },
+  {
+   "from": "P042",
+   "to": "A050"
+  },
+  {
+   "from": "C030",
+   "to": "A051"
+  },
+  {
+   "from": "C031",
+   "to": "A052"
+  },
+  {
+   "from": "C032",
+   "to": "A053"
+  },
+  {
+   "from": "P046",
+   "to": "A054"
+  },
+  {
+   "from": "P047",
+   "to": "A055"
+  },
+  {
+   "from": "P048",
+   "to": "A056"
+  },
+  {
+   "from": "P049",
+   "to": "A057"
+  },
+  {
+   "from": "P050",
+   "to": "A058"
+  },
+  {
+   "from": "C033",
+   "to": "A059"
+  }
+ ],
+ "transfers": [
+  {
+   "from": "A031",
+   "to": "A011",
+   "amount": 1378648,
+   "date": "2026-10-03",
+   "ref": "PAY INV001"
+  },
+  {
+   "from": "A018",
+   "to": "A011",
+   "amount": 1542880,
+   "date": "2026-08-15",
+   "ref": "PAY INV002"
+  },
+  {
+   "from": "A031",
+   "to": "A005",
+   "amount": 1257506,
+   "date": "2026-07-17",
+   "ref": "PAY INV003"
+  },
+  {
+   "from": "A040",
+   "to": "A021",
+   "amount": 353246,
+   "date": "2026-05-27",
+   "ref": "PAY INV004"
+  },
+  {
+   "from": "A042",
+   "to": "A027",
+   "amount": 1320506,
+   "date": "2026-07-09",
+   "ref": "PAY INV005"
+  },
+  {
+   "from": "A034",
+   "to": "A025",
+   "amount": 185212,
+   "date": "2026-08-02",
+   "ref": "PAY INV006"
+  },
+  {
+   "from": "A021",
+   "to": "A018",
+   "amount": 894386,
+   "date": "2026-05-29",
+   "ref": "PAY INV007"
+  },
+  {
+   "from": "A033",
+   "to": "A025",
+   "amount": 97247,
+   "date": "2026-10-08",
+   "ref": "PAY INV008"
+  },
+  {
+   "from": "A029",
+   "to": "A027",
+   "amount": 228535,
+   "date": "2026-06-09",
+   "ref": "PAY INV009"
+  },
+  {
+   "from": "A037",
+   "to": "A023",
+   "amount": 1966324,
+   "date": "2026-08-31",
+   "ref": "PAY INV010"
+  },
+  {
+   "from": "A029",
+   "to": "A003",
+   "amount": 598133,
+   "date": "2026-06-30",
+   "ref": "PAY INV011"
+  },
+  {
+   "from": "A019",
+   "to": "A008",
+   "amount": 1178579,
+   "date": "2026-10-16",
+   "ref": "PAY INV012"
+  },
+  {
+   "from": "A007",
+   "to": "A001",
+   "amount": 1653477,
+   "date": "2026-10-03",
+   "ref": "PAY INV013"
+  },
+  {
+   "from": "A042",
+   "to": "A016",
+   "amount": 486329,
+   "date": "2026-07-11",
+   "ref": "PAY INV014"
+  },
+  {
+   "from": "A034",
+   "to": "A001",
+   "amount": 1104029,
+   "date": "2026-05-06",
+   "ref": "PAY INV015"
+  },
+  {
+   "from": "A029",
+   "to": "A007",
+   "amount": 385086,
+   "date": "2026-09-22",
+   "ref": "PAY INV016"
+  },
+  {
+   "from": "A042",
+   "to": "A031",
+   "amount": 816652,
+   "date": "2026-09-05",
+   "ref": "PAY INV017"
+  },
+  {
+   "from": "A027",
+   "to": "A018",
+   "amount": 1288411,
+   "date": "2026-08-11",
+   "ref": "PAY INV018"
+  },
+  {
+   "from": "A034",
+   "to": "A029",
+   "amount": 452336,
+   "date": "2026-07-19",
+   "ref": "PAY INV019"
+  },
+  {
+   "from": "A037",
+   "to": "A033",
+   "amount": 1941204,
+   "date": "2026-05-12",
+   "ref": "PAY INV020"
+  },
+  {
+   "from": "A027",
+   "to": "A018",
+   "amount": 935469,
+   "date": "2026-08-21",
+   "ref": "PAY INV021"
+  },
+  {
+   "from": "A019",
+   "to": "A001",
+   "amount": 1891114,
+   "date": "2026-07-09",
+   "ref": "PAY INV022"
+  },
+  {
+   "from": "A040",
+   "to": "A035",
+   "amount": 1306083,
+   "date": "2026-05-28",
+   "ref": "PAY INV023"
+  },
+  {
+   "from": "A034",
+   "to": "A031",
+   "amount": 948457,
+   "date": "2026-07-17",
+   "ref": "PAY INV024"
+  },
+  {
+   "from": "A034",
+   "to": "A025",
+   "amount": 1221213,
+   "date": "2026-07-03",
+   "ref": "PAY INV025"
+  },
+  {
+   "from": "A042",
+   "to": "A016",
+   "amount": 1509392,
+   "date": "2026-07-20",
+   "ref": "PAY INV026"
+  },
+  {
+   "from": "A027",
+   "to": "A003",
+   "amount": 881772,
+   "date": "2026-08-27",
+   "ref": "PAY INV027"
+  },
+  {
+   "from": "A040",
+   "to": "A025",
+   "amount": 2055287,
+   "date": "2026-09-23",
+   "ref": "PAY INV028"
+  },
+  {
+   "from": "A031",
+   "to": "A003",
+   "amount": 406813,
+   "date": "2026-08-30",
+   "ref": "PAY INV029"
+  },
+  {
+   "from": "A021",
+   "to": "A007",
+   "amount": 1183999,
+   "date": "2026-05-17",
+   "ref": "PAY INV030"
+  },
+  {
+   "from": "A029",
+   "to": "A001",
+   "amount": 1882187,
+   "date": "2026-05-25",
+   "ref": "PAY INV031"
+  },
+  {
+   "from": "A039",
+   "to": "A008",
+   "amount": 279573,
+   "date": "2026-08-29",
+   "ref": "PAY INV032"
+  },
+  {
+   "from": "A021",
+   "to": "A018",
+   "amount": 1636741,
+   "date": "2026-10-12",
+   "ref": "PAY INV033"
+  },
+  {
+   "from": "A039",
+   "to": "A005",
+   "amount": 907480,
+   "date": "2026-10-12",
+   "ref": "PAY INV034"
+  },
+  {
+   "from": "A025",
+   "to": "A021",
+   "amount": 1645502,
+   "date": "2026-08-25",
+   "ref": "PAY INV035"
+  },
+  {
+   "from": "A037",
+   "to": "A003",
+   "amount": 263716,
+   "date": "2026-06-25",
+   "ref": "PAY INV036"
+  },
+  {
+   "from": "A040",
+   "to": "A019",
+   "amount": 657346,
+   "date": "2026-05-12",
+   "ref": "PAY INV037"
+  },
+  {
+   "from": "A039",
+   "to": "A007",
+   "amount": 1836276,
+   "date": "2026-05-15",
+   "ref": "PAY INV038"
+  },
+  {
+   "from": "A042",
+   "to": "A011",
+   "amount": 835470,
+   "date": "2026-04-14",
+   "ref": "PAY INV039"
+  },
+  {
+   "from": "A021",
+   "to": "A003",
+   "amount": 820378,
+   "date": "2026-07-17",
+   "ref": "PAY INV040"
+  },
+  {
+   "from": "A027",
+   "to": "A008",
+   "amount": 698700,
+   "date": "2026-09-01",
+   "ref": "PAY INV041"
+  },
+  {
+   "from": "A040",
+   "to": "A035",
+   "amount": 2055599,
+   "date": "2026-05-27",
+   "ref": "PAY INV042"
+  },
+  {
+   "from": "A011",
+   "to": "A005",
+   "amount": 1602671,
+   "date": "2026-07-31",
+   "ref": "PAY INV043"
+  },
+  {
+   "from": "A040",
+   "to": "A016",
+   "amount": 1325946,
+   "date": "2026-09-06",
+   "ref": "PAY INV044"
+  },
+  {
+   "from": "A029",
+   "to": "A016",
+   "amount": 1672983,
+   "date": "2026-06-24",
+   "ref": "PAY INV045"
+  },
+  {
+   "from": "A040",
+   "to": "A018",
+   "amount": 117654,
+   "date": "2026-08-12",
+   "ref": "PAY INV046"
+  },
+  {
+   "from": "A040",
+   "to": "A034",
+   "amount": 485332,
+   "date": "2026-05-08",
+   "ref": "PAY INV047"
+  },
+  {
+   "from": "A035",
+   "to": "A023",
+   "amount": 834698,
+   "date": "2026-09-29",
+   "ref": "PAY INV048"
+  },
+  {
+   "from": "A042",
+   "to": "A018",
+   "amount": 1224904,
+   "date": "2026-06-28",
+   "ref": "PAY INV049"
+  },
+  {
+   "from": "A031",
+   "to": "A025",
+   "amount": 358328,
+   "date": "2026-06-17",
+   "ref": "PAY INV050"
+  },
+  {
+   "from": "A035",
+   "to": "A023",
+   "amount": 1516851,
+   "date": "2026-07-12",
+   "ref": "PAY INV051"
+  },
+  {
+   "from": "A019",
+   "to": "A001",
+   "amount": 1723280,
+   "date": "2026-07-24",
+   "ref": "PAY INV052"
+  },
+  {
+   "from": "A035",
+   "to": "A001",
+   "amount": 1791506,
+   "date": "2026-05-07",
+   "ref": "PAY INV053"
+  },
+  {
+   "from": "A044",
+   "to": "A031",
+   "amount": 802627,
+   "date": "2026-06-22",
+   "ref": "PAY INV054"
+  },
+  {
+   "from": "A023",
+   "to": "A016",
+   "amount": 1669799,
+   "date": "2026-06-12",
+   "ref": "PAY INV055"
+  },
+  {
+   "from": "A040",
+   "to": "A018",
+   "amount": 1964181,
+   "date": "2026-10-12",
+   "ref": "PAY INV056"
+  },
+  {
+   "from": "A039",
+   "to": "A008",
+   "amount": 334845,
+   "date": "2026-10-03",
+   "ref": "PAY INV057"
+  },
+  {
+   "from": "A019",
+   "to": "A003",
+   "amount": 2045926,
+   "date": "2026-07-28",
+   "ref": "PAY INV058"
+  },
+  {
+   "from": "A035",
+   "to": "A023",
+   "amount": 1906725,
+   "date": "2026-05-11",
+   "ref": "PAY INV059"
+  },
+  {
+   "from": "A021",
+   "to": "A019",
+   "amount": 1944144,
+   "date": "2026-07-26",
+   "ref": "PAY INV060"
+  },
+  {
+   "from": "A014",
+   "to": "A008",
+   "amount": 2040734,
+   "date": "2026-09-02",
+   "ref": "PAY INV061"
+  },
+  {
+   "from": "A033",
+   "to": "A018",
+   "amount": 501587,
+   "date": "2026-06-25",
+   "ref": "PAY INV062"
+  },
+  {
+   "from": "A044",
+   "to": "A019",
+   "amount": 932598,
+   "date": "2026-05-19",
+   "ref": "PAY INV063"
+  },
+  {
+   "from": "A008",
+   "to": "A005",
+   "amount": 1960653,
+   "date": "2026-06-23",
+   "ref": "PAY INV064"
+  },
+  {
+   "from": "A044",
+   "to": "A040",
+   "amount": 1077850,
+   "date": "2026-09-06",
+   "ref": "PAY INV065"
+  },
+  {
+   "from": "A025",
+   "to": "A005",
+   "amount": 128843,
+   "date": "2026-06-29",
+   "ref": "PAY INV066"
+  },
+  {
+   "from": "A029",
+   "to": "A007",
+   "amount": 1006516,
+   "date": "2026-10-18",
+   "ref": "PAY INV067"
+  },
+  {
+   "from": "A040",
+   "to": "A018",
+   "amount": 1540975,
+   "date": "2026-08-01",
+   "ref": "PAY INV068"
+  },
+  {
+   "from": "A023",
+   "to": "A007",
+   "amount": 1764376,
+   "date": "2026-06-19",
+   "ref": "PAY INV069"
+  },
+  {
+   "from": "A037",
+   "to": "A001",
+   "amount": 1483680,
+   "date": "2026-07-17",
+   "ref": "PAY INV070"
+  },
+  {
+   "from": "A039",
+   "to": "A016",
+   "amount": 250838,
+   "date": "2026-09-29",
+   "ref": "PAY INV071"
+  },
+  {
+   "from": "A042",
+   "to": "A019",
+   "amount": 1701033,
+   "date": "2026-07-22",
+   "ref": "PAY INV072"
+  },
+  {
+   "from": "A008",
+   "to": "A003",
+   "amount": 186486,
+   "date": "2026-07-07",
+   "ref": "PAY INV073"
+  },
+  {
+   "from": "A016",
+   "to": "A007",
+   "amount": 1424633,
+   "date": "2026-05-22",
+   "ref": "PAY INV074"
+  },
+  {
+   "from": "A029",
+   "to": "A023",
+   "amount": 1753611,
+   "date": "2026-10-18",
+   "ref": "PAY INV075"
+  },
+  {
+   "from": "A035",
+   "to": "A027",
+   "amount": 1931247,
+   "date": "2026-05-28",
+   "ref": "PAY INV076"
+  },
+  {
+   "from": "A039",
+   "to": "A007",
+   "amount": 1305357,
+   "date": "2026-09-23",
+   "ref": "PAY INV077"
+  },
+  {
+   "from": "A018",
+   "to": "A003",
+   "amount": 1802595,
+   "date": "2026-07-15",
+   "ref": "PAY INV078"
+  },
+  {
+   "from": "A029",
+   "to": "A016",
+   "amount": 991916,
+   "date": "2026-05-22",
+   "ref": "PAY INV079"
+  },
+  {
+   "from": "A034",
+   "to": "A023",
+   "amount": 1690113,
+   "date": "2026-07-07",
+   "ref": "PAY INV080"
+  },
+  {
+   "from": "A025",
+   "to": "A018",
+   "amount": 564107,
+   "date": "2026-05-21",
+   "ref": "PAY INV081"
+  },
+  {
+   "from": "A040",
+   "to": "A005",
+   "amount": 619285,
+   "date": "2026-10-07",
+   "ref": "PAY INV082"
+  },
+  {
+   "from": "A037",
+   "to": "A001",
+   "amount": 219563,
+   "date": "2026-07-07",
+   "ref": "PAY INV083"
+  },
+  {
+   "from": "A035",
+   "to": "A008",
+   "amount": 602209,
+   "date": "2026-05-17",
+   "ref": "PAY INV084"
+  },
+  {
+   "from": "A034",
+   "to": "A014",
+   "amount": 1545486,
+   "date": "2026-06-07",
+   "ref": "PAY INV085"
+  },
+  {
+   "from": "A021",
+   "to": "A008",
+   "amount": 2046008,
+   "date": "2026-09-05",
+   "ref": "PAY INV086"
+  },
+  {
+   "from": "A018",
+   "to": "A008",
+   "amount": 416083,
+   "date": "2026-08-30",
+   "ref": "PAY INV087"
+  },
+  {
+   "from": "A011",
+   "to": "A007",
+   "amount": 1730279,
+   "date": "2026-04-16",
+   "ref": "PAY INV088"
+  },
+  {
+   "from": "A023",
+   "to": "A001",
+   "amount": 2049326,
+   "date": "2026-06-23",
+   "ref": "PAY INV089"
+  },
+  {
+   "from": "A021",
+   "to": "A001",
+   "amount": 525596,
+   "date": "2026-06-13",
+   "ref": "PAY INV090"
+  },
+  {
+   "from": "A044",
+   "to": "A008",
+   "amount": 1136125,
+   "date": "2026-08-21",
+   "ref": "PAY INV091"
+  },
+  {
+   "from": "A044",
+   "to": "A005",
+   "amount": 1272937,
+   "date": "2026-08-22",
+   "ref": "PAY INV092"
+  },
+  {
+   "from": "A033",
+   "to": "A023",
+   "amount": 1563508,
+   "date": "2026-05-17",
+   "ref": "PAY INV093"
+  },
+  {
+   "from": "A033",
+   "to": "A016",
+   "amount": 1616567,
+   "date": "2026-05-10",
+   "ref": "PAY INV094"
+  },
+  {
+   "from": "A040",
+   "to": "A033",
+   "amount": 840826,
+   "date": "2026-08-21",
+   "ref": "PAY INV095"
+  },
+  {
+   "from": "A003",
+   "to": "A001",
+   "amount": 1279706,
+   "date": "2026-07-30",
+   "ref": "PAY INV096"
+  },
+  {
+   "from": "A040",
+   "to": "A007",
+   "amount": 1307638,
+   "date": "2026-07-30",
+   "ref": "PAY INV097"
+  },
+  {
+   "from": "A021",
+   "to": "A005",
+   "amount": 1599717,
+   "date": "2026-05-15",
+   "ref": "PAY INV098"
+  },
+  {
+   "from": "A018",
+   "to": "A008",
+   "amount": 1639360,
+   "date": "2026-10-03",
+   "ref": "PAY INV099"
+  },
+  {
+   "from": "A042",
+   "to": "A034",
+   "amount": 899116,
+   "date": "2026-07-31",
+   "ref": "PAY INV100"
+  },
+  {
+   "from": "A033",
+   "to": "A019",
+   "amount": 1217182,
+   "date": "2026-09-01",
+   "ref": "PAY INV101"
+  },
+  {
+   "from": "A027",
+   "to": "A007",
+   "amount": 2057027,
+   "date": "2026-10-05",
+   "ref": "PAY INV102"
+  },
+  {
+   "from": "A039",
+   "to": "A034",
+   "amount": 1878218,
+   "date": "2026-06-13",
+   "ref": "PAY INV103"
+  },
+  {
+   "from": "A029",
+   "to": "A016",
+   "amount": 1118438,
+   "date": "2026-07-15",
+   "ref": "PAY INV104"
+  },
+  {
+   "from": "A027",
+   "to": "A025",
+   "amount": 1899927,
+   "date": "2026-05-10",
+   "ref": "PAY INV105"
+  },
+  {
+   "from": "A027",
+   "to": "A021",
+   "amount": 1740302,
+   "date": "2026-06-21",
+   "ref": "PAY INV106"
+  },
+  {
+   "from": "A040",
+   "to": "A008",
+   "amount": 1268041,
+   "date": "2026-04-25",
+   "ref": "PAY INV107"
+  },
+  {
+   "from": "A027",
+   "to": "A005",
+   "amount": 333362,
+   "date": "2026-08-04",
+   "ref": "PAY INV108"
+  },
+  {
+   "from": "A034",
+   "to": "A008",
+   "amount": 242831,
+   "date": "2026-09-20",
+   "ref": "PAY INV109"
+  },
+  {
+   "from": "A034",
+   "to": "A021",
+   "amount": 1752440,
+   "date": "2026-05-20",
+   "ref": "PAY INV110"
+  },
+  {
+   "from": "A040",
+   "to": "A023",
+   "amount": 1951083,
+   "date": "2026-08-15",
+   "ref": "PAY INV111"
+  },
+  {
+   "from": "A019",
+   "to": "A003",
+   "amount": 1580198,
+   "date": "2026-07-05",
+   "ref": "PAY INV112"
+  },
+  {
+   "from": "A035",
+   "to": "A007",
+   "amount": 1350063,
+   "date": "2026-06-03",
+   "ref": "PAY INV113"
+  },
+  {
+   "from": "A040",
+   "to": "A031",
+   "amount": 649324,
+   "date": "2026-05-14",
+   "ref": "PAY INV114"
+  },
+  {
+   "from": "A034",
+   "to": "A023",
+   "amount": 378699,
+   "date": "2026-07-04",
+   "ref": "PAY INV115"
+  },
+  {
+   "from": "A027",
+   "to": "A016",
+   "amount": 1482587,
+   "date": "2026-10-01",
+   "ref": "PAY INV116"
+  },
+  {
+   "from": "A040",
+   "to": "A039",
+   "amount": 1472129,
+   "date": "2026-05-01",
+   "ref": "PAY INV117"
+  },
+  {
+   "from": "A042",
+   "to": "A040",
+   "amount": 756236,
+   "date": "2026-04-18",
+   "ref": "PAY INV118"
+  },
+  {
+   "from": "A042",
+   "to": "A018",
+   "amount": 1981088,
+   "date": "2026-07-04",
+   "ref": "PAY INV119"
+  },
+  {
+   "from": "A023",
+   "to": "A001",
+   "amount": 543313,
+   "date": "2026-05-30",
+   "ref": "PAY INV120"
+  },
+  {
+   "from": "A040",
+   "to": "A025",
+   "amount": 266599,
+   "date": "2026-06-04",
+   "ref": "PAY INV121"
+  },
+  {
+   "from": "A039",
+   "to": "A001",
+   "amount": 321466,
+   "date": "2026-08-25",
+   "ref": "PAY INV122"
+  },
+  {
+   "from": "A027",
+   "to": "A025",
+   "amount": 1217010,
+   "date": "2026-07-07",
+   "ref": "PAY INV123"
+  },
+  {
+   "from": "A023",
+   "to": "A019",
+   "amount": 1880089,
+   "date": "2026-07-22",
+   "ref": "PAY INV124"
+  },
+  {
+   "from": "A037",
+   "to": "A035",
+   "amount": 304637,
+   "date": "2026-04-23",
+   "ref": "PAY INV125"
+  },
+  {
+   "from": "A037",
+   "to": "A011",
+   "amount": 217544,
+   "date": "2026-09-27",
+   "ref": "PAY INV126"
+  },
+  {
+   "from": "A029",
+   "to": "A018",
+   "amount": 1732459,
+   "date": "2026-08-07",
+   "ref": "PAY INV127"
+  },
+  {
+   "from": "A037",
+   "to": "A029",
+   "amount": 1119355,
+   "date": "2026-06-20",
+   "ref": "PAY INV128"
+  },
+  {
+   "from": "A033",
+   "to": "A007",
+   "amount": 948577,
+   "date": "2026-07-28",
+   "ref": "PAY INV129"
+  },
+  {
+   "from": "A040",
+   "to": "A019",
+   "amount": 1773408,
+   "date": "2026-09-19",
+   "ref": "PAY INV130"
+  },
+  {
+   "from": "A040",
+   "to": "A033",
+   "amount": 857626,
+   "date": "2026-04-24",
+   "ref": "PAY INV131"
+  },
+  {
+   "from": "A037",
+   "to": "A025",
+   "amount": 229965,
+   "date": "2026-04-13",
+   "ref": "PAY INV132"
+  },
+  {
+   "from": "A019",
+   "to": "A014",
+   "amount": 1993313,
+   "date": "2026-06-04",
+   "ref": "PAY INV133"
+  },
+  {
+   "from": "A019",
+   "to": "A018",
+   "amount": 906384,
+   "date": "2026-05-06",
+   "ref": "PAY INV134"
+  },
+  {
+   "from": "A044",
+   "to": "A031",
+   "amount": 1160116,
+   "date": "2026-05-24",
+   "ref": "PAY INV135"
+  },
+  {
+   "from": "A034",
+   "to": "A025",
+   "amount": 1835732,
+   "date": "2026-06-19",
+   "ref": "PAY INV136"
+  },
+  {
+   "from": "A040",
+   "to": "A034",
+   "amount": 2089454,
+   "date": "2026-07-07",
+   "ref": "PAY INV137"
+  },
+  {
+   "from": "A044",
+   "to": "A025",
+   "amount": 199083,
+   "date": "2026-07-26",
+   "ref": "PAY INV138"
+  },
+  {
+   "from": "A029",
+   "to": "A005",
+   "amount": 869111,
+   "date": "2026-09-13",
+   "ref": "PAY INV139"
+  },
+  {
+   "from": "A035",
+   "to": "A025",
+   "amount": 1850154,
+   "date": "2026-09-29",
+   "ref": "PAY INV140"
+  },
+  {
+   "from": "A003",
+   "to": "A002",
+   "amount": 97947,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A003",
+   "to": "A002",
+   "amount": 75096,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A003",
+   "to": "A002",
+   "amount": 113088,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A005",
+   "to": "A004",
+   "amount": 62733,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A005",
+   "to": "A004",
+   "amount": 102568,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A005",
+   "to": "A004",
+   "amount": 82527,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A007",
+   "to": "A006",
+   "amount": 141018,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A007",
+   "to": "A006",
+   "amount": 120305,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A007",
+   "to": "A006",
+   "amount": 107428,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A011",
+   "to": "A009",
+   "amount": 71551,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A011",
+   "to": "A009",
+   "amount": 117240,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A011",
+   "to": "A009",
+   "amount": 73875,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A011",
+   "to": "A010",
+   "amount": 91891,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A011",
+   "to": "A010",
+   "amount": 117104,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A011",
+   "to": "A010",
+   "amount": 137184,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A014",
+   "to": "A012",
+   "amount": 112487,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A014",
+   "to": "A012",
+   "amount": 128676,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A014",
+   "to": "A012",
+   "amount": 70308,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A014",
+   "to": "A013",
+   "amount": 111873,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A014",
+   "to": "A013",
+   "amount": 100668,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A014",
+   "to": "A013",
+   "amount": 104500,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A016",
+   "to": "A015",
+   "amount": 89041,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A016",
+   "to": "A015",
+   "amount": 103655,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A016",
+   "to": "A015",
+   "amount": 82037,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A018",
+   "to": "A017",
+   "amount": 70011,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A018",
+   "to": "A017",
+   "amount": 126910,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A018",
+   "to": "A017",
+   "amount": 142998,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A021",
+   "to": "A020",
+   "amount": 74945,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A021",
+   "to": "A020",
+   "amount": 129547,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A021",
+   "to": "A020",
+   "amount": 126840,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A023",
+   "to": "A022",
+   "amount": 85415,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A023",
+   "to": "A022",
+   "amount": 105793,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A023",
+   "to": "A022",
+   "amount": 106019,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A025",
+   "to": "A024",
+   "amount": 144599,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A025",
+   "to": "A024",
+   "amount": 79358,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A025",
+   "to": "A024",
+   "amount": 90968,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A027",
+   "to": "A026",
+   "amount": 73474,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A027",
+   "to": "A026",
+   "amount": 79194,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A027",
+   "to": "A026",
+   "amount": 93550,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A029",
+   "to": "A028",
+   "amount": 85856,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A029",
+   "to": "A028",
+   "amount": 82740,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A029",
+   "to": "A028",
+   "amount": 138957,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A031",
+   "to": "A030",
+   "amount": 80036,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A031",
+   "to": "A030",
+   "amount": 145918,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A031",
+   "to": "A030",
+   "amount": 69876,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A033",
+   "to": "A032",
+   "amount": 83218,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A033",
+   "to": "A032",
+   "amount": 142306,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A033",
+   "to": "A032",
+   "amount": 124764,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A037",
+   "to": "A036",
+   "amount": 120811,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A037",
+   "to": "A036",
+   "amount": 133889,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A037",
+   "to": "A036",
+   "amount": 135952,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A039",
+   "to": "A038",
+   "amount": 118838,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A039",
+   "to": "A038",
+   "amount": 149277,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A039",
+   "to": "A038",
+   "amount": 133989,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A042",
+   "to": "A041",
+   "amount": 144278,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A042",
+   "to": "A041",
+   "amount": 143269,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A042",
+   "to": "A041",
+   "amount": 141857,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A044",
+   "to": "A043",
+   "amount": 102363,
+   "date": "2026-04-29",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A044",
+   "to": "A043",
+   "amount": 142210,
+   "date": "2026-06-28",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A044",
+   "to": "A043",
+   "amount": 101436,
+   "date": "2026-08-27",
+   "ref": "SALARY"
+  },
+  {
+   "from": "A046",
+   "to": "A045",
+   "amount": 5800007,
+   "date": "2026-05-12",
+   "ref": "PAY INV141"
+  },
+  {
+   "from": "A047",
+   "to": "A046",
+   "amount": 5858007,
+   "date": "2026-05-14",
+   "ref": "PAY INV142"
+  },
+  {
+   "from": "A048",
+   "to": "A047",
+   "amount": 5916587,
+   "date": "2026-05-16",
+   "ref": "PAY INV143"
+  },
+  {
+   "from": "A045",
+   "to": "A048",
+   "amount": 5975753,
+   "date": "2026-05-18",
+   "ref": "PAY INV144"
+  },
+  {
+   "from": "A046",
+   "to": "A045",
+   "amount": 5708367,
+   "date": "2026-06-26",
+   "ref": "PAY INV145"
+  },
+  {
+   "from": "A047",
+   "to": "A046",
+   "amount": 5765451,
+   "date": "2026-06-28",
+   "ref": "PAY INV146"
+  },
+  {
+   "from": "A048",
+   "to": "A047",
+   "amount": 5823105,
+   "date": "2026-06-30",
+   "ref": "PAY INV147"
+  },
+  {
+   "from": "A045",
+   "to": "A048",
+   "amount": 5881336,
+   "date": "2026-07-02",
+   "ref": "PAY INV148"
+  },
+  {
+   "from": "A046",
+   "to": "A045",
+   "amount": 5493671,
+   "date": "2026-08-10",
+   "ref": "PAY INV149"
+  },
+  {
+   "from": "A047",
+   "to": "A046",
+   "amount": 5548608,
+   "date": "2026-08-12",
+   "ref": "PAY INV150"
+  },
+  {
+   "from": "A048",
+   "to": "A047",
+   "amount": 5604094,
+   "date": "2026-08-14",
+   "ref": "PAY INV151"
+  },
+  {
+   "from": "A045",
+   "to": "A048",
+   "amount": 5660135,
+   "date": "2026-08-16",
+   "ref": "PAY INV152"
+  },
+  {
+   "from": "A007",
+   "to": "A045",
+   "amount": 3764324,
+   "date": "2026-09-01",
+   "ref": "PAY INV153"
+  },
+  {
+   "from": "A007",
+   "to": "A045",
+   "amount": 3731082,
+   "date": "2026-09-11",
+   "ref": "PAY INV154"
+  },
+  {
+   "from": "A049",
+   "to": "A019",
+   "amount": 816322,
+   "date": "2026-06-01",
+   "ref": "PAY INV155"
+  },
+  {
+   "from": "A049",
+   "to": "A023",
+   "amount": 941791,
+   "date": "2026-08-03",
+   "ref": "PAY INV156"
+  },
+  {
+   "from": "A049",
+   "to": "A029",
+   "amount": 584642,
+   "date": "2026-07-19",
+   "ref": "PAY INV157"
+  },
+  {
+   "from": "A049",
+   "to": "A033",
+   "amount": 888636,
+   "date": "2026-07-29",
+   "ref": "PAY INV158"
+  },
+  {
+   "from": "A049",
+   "to": "A011",
+   "amount": 483090,
+   "date": "2026-09-14",
+   "ref": "PAY INV159"
+  },
+  {
+   "from": "A049",
+   "to": "A008",
+   "amount": 545333,
+   "date": "2026-04-26",
+   "ref": "PAY INV160"
+  },
+  {
+   "from": "A049",
+   "to": "A039",
+   "amount": 830643,
+   "date": "2026-07-17",
+   "ref": "PAY INV161"
+  },
+  {
+   "from": "A049",
+   "to": "A034",
+   "amount": 362936,
+   "date": "2026-08-23",
+   "ref": "PAY INV162"
+  },
+  {
+   "from": "A049",
+   "to": "A051",
+   "amount": 3104266,
+   "date": "2026-04-20",
+   "ref": "PAY INV163"
+  },
+  {
+   "from": "A051",
+   "to": "A050",
+   "amount": 2367661,
+   "date": "2026-04-23",
+   "ref": "LOAN"
+  },
+  {
+   "from": "A049",
+   "to": "A051",
+   "amount": 3302714,
+   "date": "2026-05-20",
+   "ref": "PAY INV164"
+  },
+  {
+   "from": "A051",
+   "to": "A050",
+   "amount": 2519019,
+   "date": "2026-05-23",
+   "ref": "LOAN"
+  },
+  {
+   "from": "A049",
+   "to": "A051",
+   "amount": 3053780,
+   "date": "2026-06-19",
+   "ref": "PAY INV165"
+  },
+  {
+   "from": "A051",
+   "to": "A050",
+   "amount": 2329154,
+   "date": "2026-06-22",
+   "ref": "LOAN"
+  },
+  {
+   "from": "A049",
+   "to": "A051",
+   "amount": 3148357,
+   "date": "2026-07-19",
+   "ref": "PAY INV166"
+  },
+  {
+   "from": "A051",
+   "to": "A050",
+   "amount": 2401289,
+   "date": "2026-07-22",
+   "ref": "LOAN"
+  },
+  {
+   "from": "A049",
+   "to": "A051",
+   "amount": 3287530,
+   "date": "2026-08-18",
+   "ref": "PAY INV167"
+  },
+  {
+   "from": "A051",
+   "to": "A050",
+   "amount": 2507438,
+   "date": "2026-08-21",
+   "ref": "LOAN"
+  },
+  {
+   "from": "A049",
+   "to": "A051",
+   "amount": 3505951,
+   "date": "2026-09-17",
+   "ref": "PAY INV168"
+  },
+  {
+   "from": "A051",
+   "to": "A050",
+   "amount": 2674030,
+   "date": "2026-09-20",
+   "ref": "LOAN"
+  },
+  {
+   "from": "A052",
+   "to": "A042",
+   "amount": 946096,
+   "date": "2026-09-19",
+   "ref": "PAY INV169"
+  },
+  {
+   "from": "A052",
+   "to": "A011",
+   "amount": 1358081,
+   "date": "2026-05-15",
+   "ref": "PAY INV170"
+  },
+  {
+   "from": "A052",
+   "to": "A005",
+   "amount": 1239976,
+   "date": "2026-08-06",
+   "ref": "PAY INV171"
+  },
+  {
+   "from": "A052",
+   "to": "A003",
+   "amount": 717081,
+   "date": "2026-06-01",
+   "ref": "PAY INV172"
+  },
+  {
+   "from": "A052",
+   "to": "A003",
+   "amount": 1332855,
+   "date": "2026-06-01",
+   "ref": "PAY INV173"
+  },
+  {
+   "from": "A052",
+   "to": "A003",
+   "amount": 744493,
+   "date": "2026-06-29",
+   "ref": "PAY INV174"
+  },
+  {
+   "from": "A052",
+   "to": "A054",
+   "amount": 1900000,
+   "date": "2026-07-31",
+   "ref": "ADVANCE 1"
+  },
+  {
+   "from": "A054",
+   "to": "A053",
+   "amount": 1890000,
+   "date": "2026-08-02",
+   "ref": "INVESTMENT"
+  },
+  {
+   "from": "A052",
+   "to": "A055",
+   "amount": 1900000,
+   "date": "2026-07-31",
+   "ref": "ADVANCE 2"
+  },
+  {
+   "from": "A055",
+   "to": "A053",
+   "amount": 1890000,
+   "date": "2026-08-02",
+   "ref": "INVESTMENT"
+  },
+  {
+   "from": "A052",
+   "to": "A056",
+   "amount": 1900000,
+   "date": "2026-07-31",
+   "ref": "ADVANCE 3"
+  },
+  {
+   "from": "A056",
+   "to": "A053",
+   "amount": 1890000,
+   "date": "2026-08-02",
+   "ref": "INVESTMENT"
+  },
+  {
+   "from": "A052",
+   "to": "A057",
+   "amount": 1900000,
+   "date": "2026-07-31",
+   "ref": "ADVANCE 4"
+  },
+  {
+   "from": "A057",
+   "to": "A053",
+   "amount": 1890000,
+   "date": "2026-08-01",
+   "ref": "INVESTMENT"
+  },
+  {
+   "from": "A052",
+   "to": "A058",
+   "amount": 1900000,
+   "date": "2026-07-31",
+   "ref": "ADVANCE 5"
+  },
+  {
+   "from": "A058",
+   "to": "A053",
+   "amount": 1890000,
+   "date": "2026-08-01",
+   "ref": "INVESTMENT"
+  },
+  {
+   "from": "A005",
+   "to": "A059",
+   "amount": 633788,
+   "date": "2026-07-09",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A027",
+   "to": "A059",
+   "amount": 776262,
+   "date": "2026-08-16",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A037",
+   "to": "A059",
+   "amount": 487369,
+   "date": "2026-07-24",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A011",
+   "to": "A059",
+   "amount": 632735,
+   "date": "2026-08-27",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A034",
+   "to": "A059",
+   "amount": 634424,
+   "date": "2026-07-14",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A019",
+   "to": "A059",
+   "amount": 781060,
+   "date": "2026-06-05",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A021",
+   "to": "A059",
+   "amount": 722359,
+   "date": "2026-07-15",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A007",
+   "to": "A059",
+   "amount": 543946,
+   "date": "2026-07-25",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A044",
+   "to": "A059",
+   "amount": 814962,
+   "date": "2026-08-20",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A039",
+   "to": "A059",
+   "amount": 439343,
+   "date": "2026-06-07",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A040",
+   "to": "A059",
+   "amount": 734240,
+   "date": "2026-08-24",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A008",
+   "to": "A059",
+   "amount": 590479,
+   "date": "2026-07-21",
+   "ref": "SERVICE CHARGES"
+  },
+  {
+   "from": "A059",
+   "to": "A001",
+   "amount": 667758,
+   "date": "2026-08-04",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A001",
+   "amount": 649715,
+   "date": "2026-06-03",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A003",
+   "amount": 959457,
+   "date": "2026-09-16",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A003",
+   "amount": 632361,
+   "date": "2026-06-04",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A014",
+   "amount": 747459,
+   "date": "2026-06-08",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A014",
+   "amount": 884123,
+   "date": "2026-09-07",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A016",
+   "amount": 901451,
+   "date": "2026-07-16",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A016",
+   "amount": 533958,
+   "date": "2026-08-11",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A018",
+   "amount": 660891,
+   "date": "2026-08-16",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A018",
+   "amount": 971778,
+   "date": "2026-08-25",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A023",
+   "amount": 890084,
+   "date": "2026-07-17",
+   "ref": "SETTLEMENT"
+  },
+  {
+   "from": "A059",
+   "to": "A023",
+   "amount": 580620,
+   "date": "2026-07-26",
+   "ref": "SETTLEMENT"
+  }
+ ],
+ "invoices": [
+  {
+   "from": "C006",
+   "to": "C016",
+   "invoice_no": "INV001",
+   "amount": 1168346,
+   "gst": 210302,
+   "date": "2026-09-14"
+  },
+  {
+   "from": "C006",
+   "to": "C009",
+   "invoice_no": "INV002",
+   "amount": 1307525,
+   "gst": 235354,
+   "date": "2026-07-21"
+  },
+  {
+   "from": "C003",
+   "to": "C016",
+   "invoice_no": "INV003",
+   "amount": 1065683,
+   "gst": 191823,
+   "date": "2026-06-29"
+  },
+  {
+   "from": "C011",
+   "to": "C022",
+   "invoice_no": "INV004",
+   "amount": 299361,
+   "gst": 53885,
+   "date": "2026-05-12"
+  },
+  {
+   "from": "C014",
+   "to": "C023",
+   "invoice_no": "INV005",
+   "amount": 1119073,
+   "gst": 201433,
+   "date": "2026-06-13"
+  },
+  {
+   "from": "C013",
+   "to": "C018",
+   "invoice_no": "INV006",
+   "amount": 156959,
+   "gst": 28253,
+   "date": "2026-07-26"
+  },
+  {
+   "from": "C009",
+   "to": "C011",
+   "invoice_no": "INV007",
+   "amount": 757954,
+   "gst": 136432,
+   "date": "2026-04-30"
+  },
+  {
+   "from": "C013",
+   "to": "C017",
+   "invoice_no": "INV008",
+   "amount": 82413,
+   "gst": 14834,
+   "date": "2026-09-16"
+  },
+  {
+   "from": "C014",
+   "to": "C015",
+   "invoice_no": "INV009",
+   "amount": 193674,
+   "gst": 34861,
+   "date": "2026-05-19"
+  },
+  {
+   "from": "C012",
+   "to": "C020",
+   "invoice_no": "INV010",
+   "amount": 1666376,
+   "gst": 299948,
+   "date": "2026-08-06"
+  },
+  {
+   "from": "C002",
+   "to": "C015",
+   "invoice_no": "INV011",
+   "amount": 506892,
+   "gst": 91241,
+   "date": "2026-06-08"
+  },
+  {
+   "from": "C005",
+   "to": "C010",
+   "invoice_no": "INV012",
+   "amount": 998796,
+   "gst": 179783,
+   "date": "2026-09-26"
+  },
+  {
+   "from": "C001",
+   "to": "C004",
+   "invoice_no": "INV013",
+   "amount": 1401252,
+   "gst": 252225,
+   "date": "2026-09-03"
+  },
+  {
+   "from": "C008",
+   "to": "C023",
+   "invoice_no": "INV014",
+   "amount": 412143,
+   "gst": 74186,
+   "date": "2026-06-19"
+  },
+  {
+   "from": "C001",
+   "to": "C018",
+   "invoice_no": "INV015",
+   "amount": 935618,
+   "gst": 168411,
+   "date": "2026-04-24"
+  },
+  {
+   "from": "C004",
+   "to": "C015",
+   "invoice_no": "INV016",
+   "amount": 326344,
+   "gst": 58742,
+   "date": "2026-09-13"
+  },
+  {
+   "from": "C016",
+   "to": "C023",
+   "invoice_no": "INV017",
+   "amount": 692078,
+   "gst": 124574,
+   "date": "2026-08-09"
+  },
+  {
+   "from": "C009",
+   "to": "C014",
+   "invoice_no": "INV018",
+   "amount": 1091874,
+   "gst": 196537,
+   "date": "2026-07-30"
+  },
+  {
+   "from": "C015",
+   "to": "C018",
+   "invoice_no": "INV019",
+   "amount": 383336,
+   "gst": 69000,
+   "date": "2026-07-08"
+  },
+  {
+   "from": "C017",
+   "to": "C020",
+   "invoice_no": "INV020",
+   "amount": 1645088,
+   "gst": 296116,
+   "date": "2026-05-05"
+  },
+  {
+   "from": "C009",
+   "to": "C014",
+   "invoice_no": "INV021",
+   "amount": 792770,
+   "gst": 142699,
+   "date": "2026-08-08"
+  },
+  {
+   "from": "C001",
+   "to": "C010",
+   "invoice_no": "INV022",
+   "amount": 1602639,
+   "gst": 288475,
+   "date": "2026-06-16"
+  },
+  {
+   "from": "C019",
+   "to": "C022",
+   "invoice_no": "INV023",
+   "amount": 1106850,
+   "gst": 199233,
+   "date": "2026-05-09"
+  },
+  {
+   "from": "C016",
+   "to": "C018",
+   "invoice_no": "INV024",
+   "amount": 803777,
+   "gst": 144680,
+   "date": "2026-06-25"
+  },
+  {
+   "from": "C013",
+   "to": "C018",
+   "invoice_no": "INV025",
+   "amount": 1034926,
+   "gst": 186287,
+   "date": "2026-06-22"
+  },
+  {
+   "from": "C008",
+   "to": "C023",
+   "invoice_no": "INV026",
+   "amount": 1279146,
+   "gst": 230246,
+   "date": "2026-07-08"
+  },
+  {
+   "from": "C002",
+   "to": "C014",
+   "invoice_no": "INV027",
+   "amount": 747264,
+   "gst": 134508,
+   "date": "2026-07-31"
+  },
+  {
+   "from": "C013",
+   "to": "C022",
+   "invoice_no": "INV028",
+   "amount": 1741769,
+   "gst": 313518,
+   "date": "2026-09-14"
+  },
+  {
+   "from": "C002",
+   "to": "C016",
+   "invoice_no": "INV029",
+   "amount": 344757,
+   "gst": 62056,
+   "date": "2026-08-07"
+  },
+  {
+   "from": "C004",
+   "to": "C011",
+   "invoice_no": "INV030",
+   "amount": 1003389,
+   "gst": 180610,
+   "date": "2026-04-26"
+  },
+  {
+   "from": "C001",
+   "to": "C015",
+   "invoice_no": "INV031",
+   "amount": 1595074,
+   "gst": 287113,
+   "date": "2026-05-07"
+  },
+  {
+   "from": "C005",
+   "to": "C021",
+   "invoice_no": "INV032",
+   "amount": 236926,
+   "gst": 42647,
+   "date": "2026-07-30"
+  },
+  {
+   "from": "C009",
+   "to": "C011",
+   "invoice_no": "INV033",
+   "amount": 1387069,
+   "gst": 249672,
+   "date": "2026-09-25"
+  },
+  {
+   "from": "C003",
+   "to": "C021",
+   "invoice_no": "INV034",
+   "amount": 769051,
+   "gst": 138429,
+   "date": "2026-09-20"
+  },
+  {
+   "from": "C011",
+   "to": "C013",
+   "invoice_no": "INV035",
+   "amount": 1394493,
+   "gst": 251009,
+   "date": "2026-08-03"
+  },
+  {
+   "from": "C002",
+   "to": "C020",
+   "invoice_no": "INV036",
+   "amount": 223488,
+   "gst": 40228,
+   "date": "2026-05-31"
+  },
+  {
+   "from": "C010",
+   "to": "C022",
+   "invoice_no": "INV037",
+   "amount": 557073,
+   "gst": 100273,
+   "date": "2026-04-24"
+  },
+  {
+   "from": "C004",
+   "to": "C021",
+   "invoice_no": "INV038",
+   "amount": 1556166,
+   "gst": 280110,
+   "date": "2026-04-26"
+  },
+  {
+   "from": "C006",
+   "to": "C023",
+   "invoice_no": "INV039",
+   "amount": 708025,
+   "gst": 127444,
+   "date": "2026-04-08"
+  },
+  {
+   "from": "C002",
+   "to": "C011",
+   "invoice_no": "INV040",
+   "amount": 695236,
+   "gst": 125142,
+   "date": "2026-07-01"
+  },
+  {
+   "from": "C005",
+   "to": "C014",
+   "invoice_no": "INV041",
+   "amount": 592119,
+   "gst": 106581,
+   "date": "2026-08-14"
+  },
+  {
+   "from": "C019",
+   "to": "C022",
+   "invoice_no": "INV042",
+   "amount": 1742033,
+   "gst": 313566,
+   "date": "2026-05-17"
+  },
+  {
+   "from": "C003",
+   "to": "C006",
+   "invoice_no": "INV043",
+   "amount": 1358196,
+   "gst": 244475,
+   "date": "2026-07-07"
+  },
+  {
+   "from": "C008",
+   "to": "C022",
+   "invoice_no": "INV044",
+   "amount": 1123683,
+   "gst": 202263,
+   "date": "2026-08-28"
+  },
+  {
+   "from": "C008",
+   "to": "C015",
+   "invoice_no": "INV045",
+   "amount": 1417782,
+   "gst": 255201,
+   "date": "2026-06-05"
+  },
+  {
+   "from": "C009",
+   "to": "C022",
+   "invoice_no": "INV046",
+   "amount": 99707,
+   "gst": 17947,
+   "date": "2026-07-29"
+  },
+  {
+   "from": "C018",
+   "to": "C022",
+   "invoice_no": "INV047",
+   "amount": 411298,
+   "gst": 74034,
+   "date": "2026-04-19"
+  },
+  {
+   "from": "C012",
+   "to": "C019",
+   "invoice_no": "INV048",
+   "amount": 707371,
+   "gst": 127327,
+   "date": "2026-09-11"
+  },
+  {
+   "from": "C009",
+   "to": "C023",
+   "invoice_no": "INV049",
+   "amount": 1038054,
+   "gst": 186850,
+   "date": "2026-06-17"
+  },
+  {
+   "from": "C013",
+   "to": "C016",
+   "invoice_no": "INV050",
+   "amount": 303668,
+   "gst": 54660,
+   "date": "2026-05-31"
+  },
+  {
+   "from": "C012",
+   "to": "C019",
+   "invoice_no": "INV051",
+   "amount": 1285467,
+   "gst": 231384,
+   "date": "2026-06-15"
+  },
+  {
+   "from": "C001",
+   "to": "C010",
+   "invoice_no": "INV052",
+   "amount": 1460407,
+   "gst": 262873,
+   "date": "2026-07-11"
+  },
+  {
+   "from": "C001",
+   "to": "C019",
+   "invoice_no": "INV053",
+   "amount": 1518225,
+   "gst": 273280,
+   "date": "2026-04-13"
+  },
+  {
+   "from": "C016",
+   "to": "C024",
+   "invoice_no": "INV054",
+   "amount": 680192,
+   "gst": 122435,
+   "date": "2026-05-29"
+  },
+  {
+   "from": "C008",
+   "to": "C012",
+   "invoice_no": "INV055",
+   "amount": 1415084,
+   "gst": 254715,
+   "date": "2026-05-19"
+  },
+  {
+   "from": "C009",
+   "to": "C022",
+   "invoice_no": "INV056",
+   "amount": 1664560,
+   "gst": 299621,
+   "date": "2026-09-16"
+  },
+  {
+   "from": "C005",
+   "to": "C021",
+   "invoice_no": "INV057",
+   "amount": 283767,
+   "gst": 51078,
+   "date": "2026-09-08"
+  },
+  {
+   "from": "C002",
+   "to": "C010",
+   "invoice_no": "INV058",
+   "amount": 1733836,
+   "gst": 312090,
+   "date": "2026-07-22"
+  },
+  {
+   "from": "C012",
+   "to": "C019",
+   "invoice_no": "INV059",
+   "amount": 1615869,
+   "gst": 290856,
+   "date": "2026-05-04"
+  },
+  {
+   "from": "C010",
+   "to": "C011",
+   "invoice_no": "INV060",
+   "amount": 1647580,
+   "gst": 296564,
+   "date": "2026-07-16"
+  },
+  {
+   "from": "C005",
+   "to": "C007",
+   "invoice_no": "INV061",
+   "amount": 1729436,
+   "gst": 311298,
+   "date": "2026-08-17"
+  },
+  {
+   "from": "C009",
+   "to": "C017",
+   "invoice_no": "INV062",
+   "amount": 425074,
+   "gst": 76513,
+   "date": "2026-06-05"
+  },
+  {
+   "from": "C010",
+   "to": "C024",
+   "invoice_no": "INV063",
+   "amount": 790337,
+   "gst": 142261,
+   "date": "2026-04-30"
+  },
+  {
+   "from": "C003",
+   "to": "C005",
+   "invoice_no": "INV064",
+   "amount": 1661570,
+   "gst": 299083,
+   "date": "2026-05-28"
+  },
+  {
+   "from": "C022",
+   "to": "C024",
+   "invoice_no": "INV065",
+   "amount": 913432,
+   "gst": 164418,
+   "date": "2026-08-21"
+  },
+  {
+   "from": "C003",
+   "to": "C013",
+   "invoice_no": "INV066",
+   "amount": 109189,
+   "gst": 19654,
+   "date": "2026-06-07"
+  },
+  {
+   "from": "C004",
+   "to": "C015",
+   "invoice_no": "INV067",
+   "amount": 852980,
+   "gst": 153536,
+   "date": "2026-09-20"
+  },
+  {
+   "from": "C009",
+   "to": "C022",
+   "invoice_no": "INV068",
+   "amount": 1305911,
+   "gst": 235064,
+   "date": "2026-07-07"
+  },
+  {
+   "from": "C004",
+   "to": "C012",
+   "invoice_no": "INV069",
+   "amount": 1495234,
+   "gst": 269142,
+   "date": "2026-05-30"
+  },
+  {
+   "from": "C001",
+   "to": "C020",
+   "invoice_no": "INV070",
+   "amount": 1257356,
+   "gst": 226324,
+   "date": "2026-06-23"
+  },
+  {
+   "from": "C008",
+   "to": "C021",
+   "invoice_no": "INV071",
+   "amount": 212575,
+   "gst": 38264,
+   "date": "2026-09-10"
+  },
+  {
+   "from": "C010",
+   "to": "C023",
+   "invoice_no": "INV072",
+   "amount": 1441553,
+   "gst": 259480,
+   "date": "2026-07-14"
+  },
+  {
+   "from": "C002",
+   "to": "C005",
+   "invoice_no": "INV073",
+   "amount": 158039,
+   "gst": 28447,
+   "date": "2026-06-17"
+  },
+  {
+   "from": "C004",
+   "to": "C008",
+   "invoice_no": "INV074",
+   "amount": 1207316,
+   "gst": 217317,
+   "date": "2026-05-05"
+  },
+  {
+   "from": "C012",
+   "to": "C015",
+   "invoice_no": "INV075",
+   "amount": 1486111,
+   "gst": 267500,
+   "date": "2026-09-26"
+  },
+  {
+   "from": "C014",
+   "to": "C019",
+   "invoice_no": "INV076",
+   "amount": 1636650,
+   "gst": 294597,
+   "date": "2026-05-10"
+  },
+  {
+   "from": "C004",
+   "to": "C021",
+   "invoice_no": "INV077",
+   "amount": 1106235,
+   "gst": 199122,
+   "date": "2026-09-05"
+  },
+  {
+   "from": "C002",
+   "to": "C009",
+   "invoice_no": "INV078",
+   "amount": 1527623,
+   "gst": 274972,
+   "date": "2026-07-04"
+  },
+  {
+   "from": "C008",
+   "to": "C015",
+   "invoice_no": "INV079",
+   "amount": 840607,
+   "gst": 151309,
+   "date": "2026-04-26"
+  },
+  {
+   "from": "C012",
+   "to": "C018",
+   "invoice_no": "INV080",
+   "amount": 1432299,
+   "gst": 257814,
+   "date": "2026-07-01"
+  },
+  {
+   "from": "C009",
+   "to": "C013",
+   "invoice_no": "INV081",
+   "amount": 478057,
+   "gst": 86050,
+   "date": "2026-05-02"
+  },
+  {
+   "from": "C003",
+   "to": "C022",
+   "invoice_no": "INV082",
+   "amount": 524818,
+   "gst": 94467,
+   "date": "2026-09-12"
+  },
+  {
+   "from": "C001",
+   "to": "C020",
+   "invoice_no": "INV083",
+   "amount": 186070,
+   "gst": 33493,
+   "date": "2026-06-25"
+  },
+  {
+   "from": "C005",
+   "to": "C019",
+   "invoice_no": "INV084",
+   "amount": 510347,
+   "gst": 91862,
+   "date": "2026-04-18"
+  },
+  {
+   "from": "C007",
+   "to": "C018",
+   "invoice_no": "INV085",
+   "amount": 1309734,
+   "gst": 235752,
+   "date": "2026-05-26"
+  },
+  {
+   "from": "C005",
+   "to": "C011",
+   "invoice_no": "INV086",
+   "amount": 1733905,
+   "gst": 312103,
+   "date": "2026-08-31"
+  },
+  {
+   "from": "C005",
+   "to": "C009",
+   "invoice_no": "INV087",
+   "amount": 352613,
+   "gst": 63470,
+   "date": "2026-08-17"
+  },
+  {
+   "from": "C004",
+   "to": "C006",
+   "invoice_no": "INV088",
+   "amount": 1466338,
+   "gst": 263941,
+   "date": "2026-04-07"
+  },
+  {
+   "from": "C001",
+   "to": "C012",
+   "invoice_no": "INV089",
+   "amount": 1736717,
+   "gst": 312609,
+   "date": "2026-05-31"
+  },
+  {
+   "from": "C001",
+   "to": "C011",
+   "invoice_no": "INV090",
+   "amount": 445420,
+   "gst": 80176,
+   "date": "2026-06-07"
+  },
+  {
+   "from": "C005",
+   "to": "C024",
+   "invoice_no": "INV091",
+   "amount": 962818,
+   "gst": 173307,
+   "date": "2026-08-13"
+  },
+  {
+   "from": "C003",
+   "to": "C024",
+   "invoice_no": "INV092",
+   "amount": 1078760,
+   "gst": 194177,
+   "date": "2026-07-24"
+  },
+  {
+   "from": "C012",
+   "to": "C017",
+   "invoice_no": "INV093",
+   "amount": 1325007,
+   "gst": 238501,
+   "date": "2026-04-28"
+  },
+  {
+   "from": "C008",
+   "to": "C017",
+   "invoice_no": "INV094",
+   "amount": 1369972,
+   "gst": 246595,
+   "date": "2026-04-12"
+  },
+  {
+   "from": "C017",
+   "to": "C022",
+   "invoice_no": "INV095",
+   "amount": 712564,
+   "gst": 128262,
+   "date": "2026-07-27"
+  },
+  {
+   "from": "C001",
+   "to": "C002",
+   "invoice_no": "INV096",
+   "amount": 1084497,
+   "gst": 195209,
+   "date": "2026-07-12"
+  },
+  {
+   "from": "C004",
+   "to": "C022",
+   "invoice_no": "INV097",
+   "amount": 1108168,
+   "gst": 199470,
+   "date": "2026-07-23"
+  },
+  {
+   "from": "C003",
+   "to": "C011",
+   "invoice_no": "INV098",
+   "amount": 1355692,
+   "gst": 244025,
+   "date": "2026-05-08"
+  },
+  {
+   "from": "C005",
+   "to": "C009",
+   "invoice_no": "INV099",
+   "amount": 1389288,
+   "gst": 250072,
+   "date": "2026-09-10"
+  },
+  {
+   "from": "C018",
+   "to": "C023",
+   "invoice_no": "INV100",
+   "amount": 761963,
+   "gst": 137153,
+   "date": "2026-07-07"
+  },
+  {
+   "from": "C010",
+   "to": "C017",
+   "invoice_no": "INV101",
+   "amount": 1031510,
+   "gst": 185672,
+   "date": "2026-08-08"
+  },
+  {
+   "from": "C004",
+   "to": "C014",
+   "invoice_no": "INV102",
+   "amount": 1743243,
+   "gst": 313784,
+   "date": "2026-09-27"
+  },
+  {
+   "from": "C018",
+   "to": "C021",
+   "invoice_no": "INV103",
+   "amount": 1591710,
+   "gst": 286508,
+   "date": "2026-05-26"
+  },
+  {
+   "from": "C008",
+   "to": "C015",
+   "invoice_no": "INV104",
+   "amount": 947829,
+   "gst": 170609,
+   "date": "2026-06-26"
+  },
+  {
+   "from": "C013",
+   "to": "C014",
+   "invoice_no": "INV105",
+   "amount": 1610108,
+   "gst": 289819,
+   "date": "2026-04-25"
+  },
+  {
+   "from": "C011",
+   "to": "C014",
+   "invoice_no": "INV106",
+   "amount": 1474832,
+   "gst": 265470,
+   "date": "2026-06-05"
+  },
+  {
+   "from": "C005",
+   "to": "C022",
+   "invoice_no": "INV107",
+   "amount": 1074611,
+   "gst": 193430,
+   "date": "2026-04-18"
+  },
+  {
+   "from": "C003",
+   "to": "C014",
+   "invoice_no": "INV108",
+   "amount": 282510,
+   "gst": 50852,
+   "date": "2026-07-05"
+  },
+  {
+   "from": "C005",
+   "to": "C018",
+   "invoice_no": "INV109",
+   "amount": 205789,
+   "gst": 37042,
+   "date": "2026-08-29"
+  },
+  {
+   "from": "C011",
+   "to": "C018",
+   "invoice_no": "INV110",
+   "amount": 1485119,
+   "gst": 267321,
+   "date": "2026-05-02"
+  },
+  {
+   "from": "C012",
+   "to": "C022",
+   "invoice_no": "INV111",
+   "amount": 1653460,
+   "gst": 297623,
+   "date": "2026-07-18"
+  },
+  {
+   "from": "C002",
+   "to": "C010",
+   "invoice_no": "INV112",
+   "amount": 1339151,
+   "gst": 241047,
+   "date": "2026-06-19"
+  },
+  {
+   "from": "C004",
+   "to": "C019",
+   "invoice_no": "INV113",
+   "amount": 1144121,
+   "gst": 205942,
+   "date": "2026-05-25"
+  },
+  {
+   "from": "C016",
+   "to": "C022",
+   "invoice_no": "INV114",
+   "amount": 550275,
+   "gst": 99050,
+   "date": "2026-04-28"
+  },
+  {
+   "from": "C012",
+   "to": "C018",
+   "invoice_no": "INV115",
+   "amount": 320931,
+   "gst": 57768,
+   "date": "2026-06-11"
+  },
+  {
+   "from": "C008",
+   "to": "C014",
+   "invoice_no": "INV116",
+   "amount": 1256430,
+   "gst": 226157,
+   "date": "2026-09-07"
+  },
+  {
+   "from": "C021",
+   "to": "C022",
+   "invoice_no": "INV117",
+   "amount": 1247567,
+   "gst": 224562,
+   "date": "2026-04-07"
+  },
+  {
+   "from": "C022",
+   "to": "C023",
+   "invoice_no": "INV118",
+   "amount": 640878,
+   "gst": 115358,
+   "date": "2026-04-08"
+  },
+  {
+   "from": "C009",
+   "to": "C023",
+   "invoice_no": "INV119",
+   "amount": 1678888,
+   "gst": 302200,
+   "date": "2026-06-19"
+  },
+  {
+   "from": "C001",
+   "to": "C012",
+   "invoice_no": "INV120",
+   "amount": 460435,
+   "gst": 82878,
+   "date": "2026-05-07"
+  },
+  {
+   "from": "C013",
+   "to": "C022",
+   "invoice_no": "INV121",
+   "amount": 225931,
+   "gst": 40668,
+   "date": "2026-05-07"
+  },
+  {
+   "from": "C001",
+   "to": "C021",
+   "invoice_no": "INV122",
+   "amount": 272429,
+   "gst": 49037,
+   "date": "2026-08-14"
+  },
+  {
+   "from": "C013",
+   "to": "C014",
+   "invoice_no": "INV123",
+   "amount": 1031364,
+   "gst": 185646,
+   "date": "2026-06-27"
+  },
+  {
+   "from": "C010",
+   "to": "C012",
+   "invoice_no": "INV124",
+   "amount": 1593296,
+   "gst": 286793,
+   "date": "2026-06-23"
+  },
+  {
+   "from": "C019",
+   "to": "C020",
+   "invoice_no": "INV125",
+   "amount": 258167,
+   "gst": 46470,
+   "date": "2026-04-14"
+  },
+  {
+   "from": "C006",
+   "to": "C020",
+   "invoice_no": "INV126",
+   "amount": 184359,
+   "gst": 33185,
+   "date": "2026-09-20"
+  },
+  {
+   "from": "C009",
+   "to": "C015",
+   "invoice_no": "INV127",
+   "amount": 1468186,
+   "gst": 264273,
+   "date": "2026-07-18"
+  },
+  {
+   "from": "C015",
+   "to": "C020",
+   "invoice_no": "INV128",
+   "amount": 948606,
+   "gst": 170749,
+   "date": "2026-06-09"
+  },
+  {
+   "from": "C004",
+   "to": "C017",
+   "invoice_no": "INV129",
+   "amount": 803879,
+   "gst": 144698,
+   "date": "2026-07-20"
+  },
+  {
+   "from": "C010",
+   "to": "C022",
+   "invoice_no": "INV130",
+   "amount": 1502888,
+   "gst": 270520,
+   "date": "2026-08-30"
+  },
+  {
+   "from": "C017",
+   "to": "C022",
+   "invoice_no": "INV131",
+   "amount": 726802,
+   "gst": 130824,
+   "date": "2026-04-12"
+  },
+  {
+   "from": "C013",
+   "to": "C020",
+   "invoice_no": "INV132",
+   "amount": 194886,
+   "gst": 35079,
+   "date": "2026-04-02"
+  },
+  {
+   "from": "C007",
+   "to": "C010",
+   "invoice_no": "INV133",
+   "amount": 1689248,
+   "gst": 304065,
+   "date": "2026-05-06"
+  },
+  {
+   "from": "C009",
+   "to": "C010",
+   "invoice_no": "INV134",
+   "amount": 768122,
+   "gst": 138262,
+   "date": "2026-05-01"
+  },
+  {
+   "from": "C016",
+   "to": "C024",
+   "invoice_no": "INV135",
+   "amount": 983149,
+   "gst": 176967,
+   "date": "2026-05-15"
+  },
+  {
+   "from": "C013",
+   "to": "C018",
+   "invoice_no": "INV136",
+   "amount": 1555705,
+   "gst": 280027,
+   "date": "2026-05-29"
+  },
+  {
+   "from": "C018",
+   "to": "C022",
+   "invoice_no": "INV137",
+   "amount": 1770724,
+   "gst": 318730,
+   "date": "2026-06-30"
+  },
+  {
+   "from": "C013",
+   "to": "C024",
+   "invoice_no": "INV138",
+   "amount": 168714,
+   "gst": 30369,
+   "date": "2026-07-21"
+  },
+  {
+   "from": "C003",
+   "to": "C015",
+   "invoice_no": "INV139",
+   "amount": 736535,
+   "gst": 132576,
+   "date": "2026-08-26"
+  },
+  {
+   "from": "C013",
+   "to": "C019",
+   "invoice_no": "INV140",
+   "amount": 1567927,
+   "gst": 282227,
+   "date": "2026-09-11"
+  },
+  {
+   "from": "C025",
+   "to": "C026",
+   "invoice_no": "INV141",
+   "amount": 4915260,
+   "gst": 884747,
+   "date": "2026-05-11"
+  },
+  {
+   "from": "C026",
+   "to": "C027",
+   "invoice_no": "INV142",
+   "amount": 4964413,
+   "gst": 893594,
+   "date": "2026-05-13"
+  },
+  {
+   "from": "C027",
+   "to": "C028",
+   "invoice_no": "INV143",
+   "amount": 5014057,
+   "gst": 902530,
+   "date": "2026-05-15"
+  },
+  {
+   "from": "C028",
+   "to": "C025",
+   "invoice_no": "INV144",
+   "amount": 5064197,
+   "gst": 911556,
+   "date": "2026-05-17"
+  },
+  {
+   "from": "C025",
+   "to": "C026",
+   "invoice_no": "INV145",
+   "amount": 4837599,
+   "gst": 870768,
+   "date": "2026-06-25"
+  },
+  {
+   "from": "C026",
+   "to": "C027",
+   "invoice_no": "INV146",
+   "amount": 4885975,
+   "gst": 879476,
+   "date": "2026-06-27"
+  },
+  {
+   "from": "C027",
+   "to": "C028",
+   "invoice_no": "INV147",
+   "amount": 4934835,
+   "gst": 888270,
+   "date": "2026-06-29"
+  },
+  {
+   "from": "C028",
+   "to": "C025",
+   "invoice_no": "INV148",
+   "amount": 4984183,
+   "gst": 897153,
+   "date": "2026-07-01"
+  },
+  {
+   "from": "C025",
+   "to": "C026",
+   "invoice_no": "INV149",
+   "amount": 4655654,
+   "gst": 838018,
+   "date": "2026-08-09"
+  },
+  {
+   "from": "C026",
+   "to": "C027",
+   "invoice_no": "INV150",
+   "amount": 4702210,
+   "gst": 846398,
+   "date": "2026-08-11"
+  },
+  {
+   "from": "C027",
+   "to": "C028",
+   "invoice_no": "INV151",
+   "amount": 4749232,
+   "gst": 854862,
+   "date": "2026-08-13"
+  },
+  {
+   "from": "C028",
+   "to": "C025",
+   "invoice_no": "INV152",
+   "amount": 4796725,
+   "gst": 863410,
+   "date": "2026-08-15"
+  },
+  {
+   "from": "C025",
+   "to": "C004",
+   "invoice_no": "INV153",
+   "amount": 3190105,
+   "gst": 574219,
+   "date": "2026-08-29"
+  },
+  {
+   "from": "C025",
+   "to": "C004",
+   "invoice_no": "INV154",
+   "amount": 3161934,
+   "gst": 569148,
+   "date": "2026-09-08"
+  },
+  {
+   "from": "C010",
+   "to": "C029",
+   "invoice_no": "INV155",
+   "amount": 691798,
+   "gst": 124524,
+   "date": "2026-05-20"
+  },
+  {
+   "from": "C012",
+   "to": "C029",
+   "invoice_no": "INV156",
+   "amount": 798128,
+   "gst": 143663,
+   "date": "2026-07-22"
+  },
+  {
+   "from": "C015",
+   "to": "C029",
+   "invoice_no": "INV157",
+   "amount": 495459,
+   "gst": 89183,
+   "date": "2026-07-07"
+  },
+  {
+   "from": "C017",
+   "to": "C029",
+   "invoice_no": "INV158",
+   "amount": 753081,
+   "gst": 135555,
+   "date": "2026-07-17"
+  },
+  {
+   "from": "C006",
+   "to": "C029",
+   "invoice_no": "INV159",
+   "amount": 409398,
+   "gst": 73692,
+   "date": "2026-09-02"
+  },
+  {
+   "from": "C005",
+   "to": "C029",
+   "invoice_no": "INV160",
+   "amount": 462147,
+   "gst": 83186,
+   "date": "2026-04-14"
+  },
+  {
+   "from": "C021",
+   "to": "C029",
+   "invoice_no": "INV161",
+   "amount": 703935,
+   "gst": 126708,
+   "date": "2026-07-05"
+  },
+  {
+   "from": "C018",
+   "to": "C029",
+   "invoice_no": "INV162",
+   "amount": 307573,
+   "gst": 55363,
+   "date": "2026-08-11"
+  },
+  {
+   "from": "C030",
+   "to": "C029",
+   "invoice_no": "INV163",
+   "amount": 2630734,
+   "gst": 473532,
+   "date": "2026-04-16"
+  },
+  {
+   "from": "C030",
+   "to": "C029",
+   "invoice_no": "INV164",
+   "amount": 2798910,
+   "gst": 503804,
+   "date": "2026-05-16"
+  },
+  {
+   "from": "C030",
+   "to": "C029",
+   "invoice_no": "INV165",
+   "amount": 2587949,
+   "gst": 465831,
+   "date": "2026-06-15"
+  },
+  {
+   "from": "C030",
+   "to": "C029",
+   "invoice_no": "INV166",
+   "amount": 2668099,
+   "gst": 480258,
+   "date": "2026-07-15"
+  },
+  {
+   "from": "C030",
+   "to": "C029",
+   "invoice_no": "INV167",
+   "amount": 2786042,
+   "gst": 501488,
+   "date": "2026-08-14"
+  },
+  {
+   "from": "C030",
+   "to": "C029",
+   "invoice_no": "INV168",
+   "amount": 2971145,
+   "gst": 534806,
+   "date": "2026-09-13"
+  },
+  {
+   "from": "C023",
+   "to": "C031",
+   "invoice_no": "INV169",
+   "amount": 801776,
+   "gst": 144320,
+   "date": "2026-09-09"
+  },
+  {
+   "from": "C006",
+   "to": "C031",
+   "invoice_no": "INV170",
+   "amount": 1150916,
+   "gst": 207165,
+   "date": "2026-05-05"
+  },
+  {
+   "from": "C003",
+   "to": "C031",
+   "invoice_no": "INV171",
+   "amount": 1050827,
+   "gst": 189149,
+   "date": "2026-07-27"
+  },
+  {
+   "from": "C002",
+   "to": "C031",
+   "invoice_no": "INV172",
+   "amount": 607696,
+   "gst": 109385,
+   "date": "2026-05-22"
+  },
+  {
+   "from": "C002",
+   "to": "C031",
+   "invoice_no": "INV173",
+   "amount": 1129538,
+   "gst": 203317,
+   "date": "2026-05-22"
+  },
+  {
+   "from": "C002",
+   "to": "C031",
+   "invoice_no": "INV174",
+   "amount": 630926,
+   "gst": 113567,
+   "date": "2026-06-19"
+  }
+ ]
+}

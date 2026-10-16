@@ -1,0 +1,22 @@
+services:
+  falkordb:
+    image: falkordb/falkordb:latest
+    ports:
+      - "6379:6379"   # database
+      - "3000:3000"   # FalkorDB Browser, open http://localhost:3000 to look at the graph
+    volumes:
+      - falkordb-data:/var/lib/falkordb/data
+
+  app:
+    build: .
+    env_file: .env
+    environment:
+      FALKORDB_HOST: falkordb
+      FALKORDB_PORT: "6379"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - falkordb
+
+volumes:
+  falkordb-data:

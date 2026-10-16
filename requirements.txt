@@ -1,0 +1,6 @@
+falkordb>=1.8
+mcp>=1.12,<2
+openai>=1.40
+fastapi>=0.110
+uvicorn>=0.29
+python-dotenv>=1.0

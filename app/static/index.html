@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TraceLedger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+  :root {
+    --paper: #f6f1e7;
+    --paper-2: #efe8da;
+    --rule: #ddd3c0;
+    --ink: #1d1b16;
+    --ink-2: #5b5547;
+    --ink-3: #8c8574;
+    --red: #b3261e;
+    --red-soft: #f4ddd8;
+    --amber: #9a6a00;
+    --amber-soft: #f5e8c8;
+    --green: #2f6b3a;
+    --green-soft: #dcebd8;
+    --blue: #234b8a;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font: 14px/1.5 "IBM Plex Sans", system-ui, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  header {
+    display: flex; align-items: baseline; gap: 16px;
+    padding: 14px 24px; border-bottom: 2px solid var(--ink);
+  }
+  header h1 { font: 700 26px/1 "Fraunces", serif; margin: 0; letter-spacing: -0.5px; }
+  header .sub { color: var(--ink-2); }
+  header .health { margin-left: auto; font: 12px "IBM Plex Mono", monospace; color: var(--ink-3); }
+  header .health.ok::before { content: "● "; color: var(--green); }
+  header .health.bad::before { content: "● "; color: var(--red); }
+
+  main { display: grid; grid-template-columns: 420px 1fr; min-height: 0; }
+  .left { border-right: 1px solid var(--rule); display: flex; flex-direction: column; min-height: 0; }
+  .right { display: grid; grid-template-rows: 1fr auto; min-height: 0; }
+
+  .ask { padding: 16px 20px; border-bottom: 1px solid var(--rule); }
+  .ask label { font: 600 11px "IBM Plex Sans"; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); }
+  textarea {
+    width: 100%; margin: 6px 0 10px; padding: 10px 12px; resize: vertical; min-height: 64px;
+    font: 14px/1.4 "IBM Plex Sans"; color: var(--ink); background: #fffdf8;
+    border: 1px solid var(--rule); border-radius: 4px;
+  }
+  textarea:focus { outline: 2px solid var(--ink); outline-offset: -1px; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  button.go {
+    background: var(--ink); color: var(--paper); border: 0; border-radius: 4px;
+    padding: 9px 18px; font: 600 14px "IBM Plex Sans"; cursor: pointer;
+  }
+  button.go:disabled { opacity: .45; cursor: wait; }
+  .chip {
+    background: transparent; border: 1px solid var(--rule); border-radius: 999px;
+    padding: 4px 10px; font: 12px "IBM Plex Sans"; color: var(--ink-2); cursor: pointer;
+  }
+  .chip:hover { border-color: var(--ink); color: var(--ink); }
+  .presets { margin-top: 10px; }
+
+  .trail { overflow-y: auto; padding: 12px 20px 40px; flex: 1; }
+  .trail h2, .cases h2 {
+    font: 600 11px "IBM Plex Sans"; letter-spacing: 1.2px; text-transform: uppercase;
+    color: var(--ink-2); margin: 4px 0 10px;
+  }
+  .empty { color: var(--ink-3); font-style: italic; }
+  .step { position: relative; padding: 8px 0 10px 34px; border-bottom: 1px dashed var(--rule); }
+  .step .n {
+    position: absolute; left: 0; top: 9px; width: 22px; height: 22px; border-radius: 50%;
+    border: 1.5px solid var(--ink); font: 500 11px/19px "IBM Plex Mono"; text-align: center;
+  }
+  .step.action .n { background: var(--red); border-color: var(--red); color: white; }
+  .tool { font: 500 13px "IBM Plex Mono"; }
+  .args { font: 12px "IBM Plex Mono"; color: var(--ink-3); word-break: break-word; }
+  .summary { margin-top: 4px; color: var(--ink-2); font-size: 13px; }
+  .path {
+    margin-top: 6px; padding: 6px 8px; font: 12px/1.45 "IBM Plex Mono"; color: var(--ink);
+    background: #fffdf8; border-left: 3px solid var(--red); word-break: break-word;
+  }
+  details { margin-top: 4px; }
+  details summary { font-size: 12px; color: var(--ink-3); cursor: pointer; }
+  details pre { font: 11px "IBM Plex Mono"; white-space: pre-wrap; max-height: 220px; overflow: auto;
+                background: var(--paper-2); padding: 8px; margin: 4px 0 0; }
+  .thought { padding: 8px 0; color: var(--ink-2); font-style: italic; border-bottom: 1px dashed var(--rule); }
+  .final {
+    margin-top: 14px; padding: 14px 16px; background: #fffdf8; border: 1px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+  .final h3 { font: 700 17px "Fraunces"; margin: 0 0 6px; }
+  .final p { margin: 6px 0; }
+  .final ul { margin: 6px 0; padding-left: 18px; }
+  .error { color: var(--red); padding: 8px 0; }
+  .spinner { color: var(--ink-3); padding: 8px 0; font: 12px "IBM Plex Mono"; }
+
+  #graph { min-height: 0; position: relative;
+    background-image: linear-gradient(var(--rule) 1px, transparent 1px);
+    background-size: 100% 32px; background-color: var(--paper); }
+  .legend {
+    position: absolute; top: 12px; right: 12px; background: rgba(246,241,231,.92);
+    border: 1px solid var(--rule); padding: 8px 12px; font-size: 12px; color: var(--ink-2); z-index: 2;
+  }
+  .legend span { display: inline-block; margin-right: 10px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; margin-right: 4px; vertical-align: -1px; }
+  .graph-tools { position: absolute; left: 12px; top: 12px; z-index: 2; }
+
+  .cases { border-top: 2px solid var(--ink); padding: 12px 20px 16px; max-height: 34vh; overflow-y: auto; background: var(--paper-2); }
+  .case-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 12px; }
+  .case { background: #fffdf8; border: 1px solid var(--rule); padding: 12px 14px; position: relative; }
+  .case .top { display: flex; gap: 8px; align-items: center; margin-bottom: 4px; }
+  .case .id { font: 500 12px "IBM Plex Mono"; color: var(--ink-3); }
+  .stamp {
+    font: 700 11px "IBM Plex Mono"; letter-spacing: 1px; padding: 2px 6px; border: 2px solid;
+    transform: rotate(-2deg); text-transform: uppercase;
+  }
+  .stamp.high { color: var(--red); border-color: var(--red); background: var(--red-soft); }
+  .stamp.medium { color: var(--amber); border-color: var(--amber); background: var(--amber-soft); }
+  .stamp.low { color: var(--green); border-color: var(--green); background: var(--green-soft); }
+  .status { margin-left: auto; font-size: 12px; color: var(--ink-2); }
+  .status.esc { color: var(--red); font-weight: 600; }
+  .case h4 { font: 700 15px "Fraunces"; margin: 2px 0 6px; }
+  .case .label { font: 600 10px "IBM Plex Sans"; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-3); margin-top: 8px; }
+  .case .note { white-space: pre-wrap; font-size: 13px; background: var(--paper); padding: 6px 8px; margin-top: 2px; }
+  .case .who { font-size: 12px; color: var(--ink-2); }
+
+  @media (max-width: 900px) {
+    main { grid-template-columns: 1fr; }
+    .left { border-right: 0; border-bottom: 1px solid var(--rule); max-height: 60vh; }
+    #graph { height: 60vh; }
+    .case-list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>TraceLedger</h1>
+  <span class="sub">forensic audit agent for CA firms, running on a FalkorDB graph</span>
+  <span id="health" class="health">checking graph…</span>
+</header>
+
+<main>
+  <section class="left">
+    <div class="ask">
+      <label for="task">What should the agent look into?</label>
+      <textarea id="task">Investigate Sharma Traders. Are any of its vendors related to it, and is money coming back to its directors?</textarea>
+      <div class="row">
+        <button id="go" class="go">Investigate</button>
+        <span id="state" class="args"></span>
+      </div>
+      <div class="row presets">
+        <button class="chip" data-task="Investigate Sharma Traders. Are any of its vendors related to it, and is money coming back to its directors?">Sharma Traders</button>
+        <button class="chip" data-task="Deccan Steel Works claimed GST input credit on big purchases from Shreeji Impex. Check if Shreeji Impex is a genuine supplier.">Deccan Steel's GST credit</button>
+        <button class="chip" data-task="Northstar Infra paid out 95 lakh in 'advances' in July. Where did that money end up?">Northstar advances</button>
+        <button class="chip" data-task="Scan the whole client portfolio for this financial year and investigate the biggest risks.">Scan portfolio</button>
+      </div>
+    </div>
+    <div class="trail" id="trail">
+      <h2>Agent trail</h2>
+      <div class="empty">Every tool the agent picks, and what the graph answered, shows up here.</div>
+    </div>
+  </section>
+
+  <section class="right">
+    <div id="graph">
+      <div class="graph-tools"><button class="chip" id="reset">Show whole graph</button> <span id="mode" class="args"></span></div>
+      <div class="legend">
+        <span><i style="background:#1d1b16"></i>Company</span>
+        <span><i style="background:#234b8a;border-radius:50%"></i>Person</span>
+        <span><i style="background:#8c8574;transform:rotate(45deg)"></i>Account</span>
+        <span><i style="background:#c9bfa9"></i>Address</span>
+        <span><i style="background:#b3261e"></i>On evidence path</span>
+      </div>
+    </div>
+    <div class="cases">
+      <h2>Cases in the graph</h2>
+      <div class="case-list" id="cases"><div class="empty">No cases yet.</div></div>
+    </div>
+  </section>
+</main>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+// ------------------------------------------------------------ graph
+const STYLE = {
+  Company: { shape: "box", color: { background: "#1d1b16", border: "#1d1b16" }, font: { color: "#f6f1e7", face: "IBM Plex Sans", size: 13 } },
+  Person:  { shape: "dot", size: 9, color: { background: "#234b8a", border: "#234b8a" }, font: { color: "#1d1b16", size: 12 } },
+  Account: { shape: "diamond", size: 7, color: { background: "#8c8574", border: "#8c8574" }, font: { color: "#5b5547", size: 10 } },
+  Address: { shape: "triangle", size: 8, color: { background: "#c9bfa9", border: "#a89e88" }, font: { color: "#5b5547", size: 10 } },
+  Case:    { shape: "star", size: 14, color: { background: "#b3261e", border: "#b3261e" }, font: { color: "#b3261e", size: 12 } },
+};
+const EDGE = {
+  TRANSFER: "#8c8574", INVOICED: "#9a6a00", DIRECTOR_OF: "#234b8a", RELATIVE_OF: "#234b8a",
+  HOLDS: "#c9bfa9", REGISTERED_AT: "#c9bfa9", INVOLVES: "#b3261e",
+};
+const nodes = new vis.DataSet();
+const edges = new vis.DataSet();
+let network, highlighted = new Set();
+
+function shortName(n) {
+  if (n.type === "Account") return n.name.split(" / ")[1] || n.name;
+  return n.name.length > 26 ? n.name.slice(0, 24) + "…" : n.name;
+}
+
+function nodeView(n, hot, dim) {
+  const s = STYLE[n.type] || STYLE.Account;
+  const v = { id: n.id, label: shortName(n), title: `${n.type}: ${n.name} (${n.id})`, ...structuredClone(s), opacity: dim ? 0.18 : 1 };
+  if (hot) {
+    v.color = { background: "#b3261e", border: "#7d1913" };
+    v.borderWidth = 3;
+    if (n.type !== "Company") v.font = { ...(v.font || {}), color: "#b3261e", bold: true };
+  }
+  return v;
+}
+
+function edgeView(e, hot, dim) {
+  return {
+    id: `${e.from}|${e.to}|${e.type}`, from: e.from, to: e.to,
+    label: hot && e.label ? e.label : "",
+    title: `${e.type}${e.count > 1 ? " ×" + e.count : ""}${e.label ? " · " + e.label : ""}`,
+    arrows: e.type === "RELATIVE_OF" ? "" : "to",
+    dashes: ["HOLDS", "REGISTERED_AT"].includes(e.type),
+    color: { color: hot ? "#b3261e" : EDGE[e.type] || "#8c8574", opacity: dim ? 0.08 : hot ? 1 : 0.55 },
+    width: hot ? 2.6 : 1,
+    font: { size: 11, color: "#b3261e", strokeWidth: 3, strokeColor: "#f6f1e7", face: "IBM Plex Mono" },
+  };
+}
+
+let raw = { nodes: [], edges: [] };
+
+function draw() {
+  // Two views: the whole graph (quiet), or only the evidence the agent found (loud).
+  const evidence = highlighted.size > 0;
+  nodes.clear(); edges.clear();
+  const shown = evidence ? raw.nodes.filter((n) => highlighted.has(n.id)) : raw.nodes;
+  nodes.add(shown.map((n) => {
+    const v = nodeView(n, evidence, false);
+    if (!evidence && n.type !== "Company") v.label = "";  // keep the overview readable
+    if (evidence) {
+      v.font = { ...(v.font || {}), size: 15 };
+      v.label = n.type === "Account" ? n.name.replace(" / ", "\n") : n.name;  // full names on the evidence view
+    }
+    return v;
+  }));
+  edges.add(raw.edges
+    .filter((e) => !evidence || (highlighted.has(e.from) && highlighted.has(e.to)))
+    .map((e) => edgeView(e, evidence, false)));
+  if (network) {
+    network.setOptions({ physics: true });
+    network.once("stabilizationIterationsDone", () => network.setOptions({ physics: false }));
+    network.stabilize(evidence ? 200 : 300);
+  }
+}
+
+async function loadGraph() {
+  raw = await (await fetch("/api/graph")).json();
+  draw();
+  if (!network) {
+    network = new vis.Network($("#graph"), { nodes, edges }, {
+      physics: { solver: "forceAtlas2Based", forceAtlas2Based: { gravitationalConstant: -60, springLength: 110, avoidOverlap: 0.6 }, stabilization: { iterations: 300 } },
+      interaction: { hover: true, tooltipDelay: 120 },
+      edges: { smooth: { type: "continuous" } },
+    });
+    network.once("stabilizationIterationsDone", () => network.setOptions({ physics: false }));
+  }
+}
+
+function focusOn(ids) {
+  ids.forEach((i) => highlighted.add(i));
+  draw();
+  if (network) network.once("stabilizationIterationsDone", () => network.fit({ animation: { duration: 500 } }));
+}
+
+$("#reset").onclick = () => { highlighted.clear(); draw(); network && network.once("stabilizationIterationsDone", () => network.fit()); };
+
+// ------------------------------------------------------------ trail
+let stepEl = null;
+
+function evidenceTexts(obj, out = []) {
+  if (Array.isArray(obj)) obj.forEach((v) => evidenceTexts(v, out));
+  else if (obj && typeof obj === "object") {
+    if (typeof obj.text === "string" && obj.text.includes("-->")) out.push(obj.text);
+    Object.values(obj).forEach((v) => typeof v === "object" && evidenceTexts(v, out));
+  }
+  return out;
+}
+
+function summarize(name, r) {
+  if (r.error) return `Error: ${r.error}`;
+  switch (name) {
+    case "search_entity": return (r.matches || []).map((m) => `${m.name} (${m.type}, ${m.id})`).join(" · ") || "no match";
+    case "entity_profile": return `${r.name} · ${r.type}${r.directors ? " · directors: " + r.directors.map((d) => d.name).join(", ") : ""}${r.prior_cases ? " · " + r.prior_cases + " prior case(s)" : ""}`;
+    case "get_prior_cases": return r.cases?.length ? r.cases.map((c) => `${c.id}: ${c.title} (${c.status})`).join(" · ") : "no earlier cases";
+    case "find_invoice_cycles": return `${r.cycles_found} invoice loop(s)${r.cycles?.[0] ? ", " + r.cycles[0].rounds + " rounds" : ""}`;
+    case "find_money_cycles": return `${r.cycles_found} money loop(s)`;
+    case "find_round_tripping": return `${r.routes_found} route(s) back to insiders · ${r.amount_returned_to_insiders}`;
+    case "find_related_counterparties": return `checked ${r.counterparties_checked} counterparties · ${r.related_counterparties.length} related`;
+    case "explain_link": return r.linked ? `linked in ${r.shortest_link_hops} hops` : r.note;
+    case "trace_money": return r.routes_found ? `${r.routes_found} route(s) · ${r.total_arrived} arrived${r.looks_like_split_payment ? " · looks like a split payment" : ""}` : r.note;
+    case "find_hub_accounts": return (r.top || []).slice(0, 3).map((h) => `${h.account} (score ${h.hub_score}, ${h.senders} payers)`).join(" · ");
+    case "find_control_groups": return (r.groups || []).slice(0, 3).map((g) => `[${g.companies.join(", ")}] ${g.invoice_value_inside_group} inside`).join(" · ");
+    case "find_shell_clusters": return (r.clusters || []).map((c) => `${c.address}: ${c.companies.length} companies`).join(" · ") || "none";
+    case "scan_portfolio": return `${r.invoice_loops.length} invoice loop(s) · ${r.top_groups.length} groups · ${r.top_hub_accounts.length} hub accounts`;
+    case "open_case": return `opened ${r.case_id} · ${r.risk_level} risk · linked ${r.linked_entities} entities`;
+    case "escalate_case": return `${r.id} → ${r.status}`;
+    default: return JSON.stringify(r).slice(0, 160);
+  }
+}
+
+function md(text) {
+  const lines = esc(text).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").split("\n");
+  let html = "", inList = false;
+  for (const l of lines) {
+    const item = l.match(/^\s*(?:[-*•]|\d+\.)\s+(.*)/);
+    if (item) { if (!inList) { html += "<ul>"; inList = true; } html += `<li>${item[1]}</li>`; continue; }
+    if (inList) { html += "</ul>"; inList = false; }
+    const h = l.match(/^#{1,4}\s+(.*)/);
+    if (h) html += `<p><b>${h[1]}</b></p>`;
+    else if (l.trim()) html += `<p>${l}</p>`;
+  }
+  return html + (inList ? "</ul>" : "");
+}
+
+function addToTrail(ev) {
+  const trail = $("#trail");
+  trail.querySelector(".empty")?.remove();
+  trail.querySelector(".spinner")?.remove();
+  if (ev.type === "start") {
+    trail.insertAdjacentHTML("beforeend", `<div class="args">Agent connected to MCP server · ${ev.tools.length} graph tools available</div>`);
+  } else if (ev.type === "thought") {
+    trail.insertAdjacentHTML("beforeend", `<div class="thought">${esc(ev.text)}</div>`);
+  } else if (ev.type === "tool_call") {
+    const action = ["open_case", "escalate_case"].includes(ev.name);
+    trail.insertAdjacentHTML("beforeend", `<div class="step ${action ? "action" : ""}"><div class="n">${ev.step}</div>
+      <div class="tool">${esc(ev.name)}</div><div class="args">${esc(JSON.stringify(ev.args))}</div></div>`);
+    stepEl = trail.lastElementChild;
+  } else if (ev.type === "tool_result" && stepEl) {
+    const paths = evidenceTexts(ev.result).slice(0, 3);
+    stepEl.insertAdjacentHTML("beforeend", `<div class="summary">${esc(summarize(ev.name, ev.result))}</div>
+      ${paths.map((p) => `<div class="path">${esc(p)}</div>`).join("")}
+      <details><summary>raw graph result</summary><pre>${esc(JSON.stringify(ev.result, null, 2))}</pre></details>`);
+    if (paths.length || ["open_case"].includes(ev.name)) focusOn(ev.highlight || []);
+    if (["open_case", "escalate_case"].includes(ev.name)) loadCases();
+  } else if (ev.type === "final") {
+    trail.insertAdjacentHTML("beforeend", `<div class="final"><h3>Finding</h3>${md(ev.text)}</div>`);
+  } else if (ev.type === "error") {
+    trail.insertAdjacentHTML("beforeend", `<div class="error">${esc(ev.text)}</div>`);
+  }
+  if (!["final", "error", "done"].includes(ev.type)) trail.insertAdjacentHTML("beforeend", `<div class="spinner">thinking…</div>`);
+  trail.scrollTop = trail.scrollHeight;
+}
+
+async function runTask() {
+  const task = $("#task").value.trim();
+  if (!task) return;
+  $("#go").disabled = true; $("#state").textContent = "running…";
+  highlighted.clear(); draw();
+  $("#trail").innerHTML = `<h2>Agent trail</h2><div class="spinner">starting agent…</div>`;
+  try {
+    const res = await fetch("/api/investigate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ task }) });
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    let buf = "";
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, { stream: true });
+      const parts = buf.split("\n\n"); buf = parts.pop();
+      for (const p of parts) {
+        if (!p.startsWith("data: ")) continue;
+        const ev = JSON.parse(p.slice(6));
+        if (ev.type === "done") continue;
+        addToTrail(ev);
+      }
+    }
+  } catch (e) {
+    addToTrail({ type: "error", text: String(e) });
+  }
+  $("#trail .spinner")?.remove();
+  $("#go").disabled = false; $("#state").textContent = "";
+  loadCases();
+  raw = await (await fetch("/api/graph")).json();  // new Case nodes are in the graph now
+  draw();
+}
+
+$("#go").onclick = runTask;
+document.querySelectorAll(".chip[data-task]").forEach((b) => (b.onclick = () => { $("#task").value = b.dataset.task; }));
+
+// ------------------------------------------------------------ cases
+async function loadCases() {
+  const cases = await (await fetch("/api/cases")).json();
+  const box = $("#cases");
+  if (!cases.length) { box.innerHTML = `<div class="empty">No cases yet.</div>`; return; }
+  box.innerHTML = cases.map((c) => `
+    <div class="case">
+      <div class="top"><span class="stamp ${c.risk_level}">${c.risk_level} · ${c.risk_score}</span>
+        <span class="id">${esc(c.id)}</span>
+        <span class="status ${c.status === "escalated_to_partner" ? "esc" : ""}">${c.status === "escalated_to_partner" ? "Escalated to partner" : "Open"}</span></div>
+      <h4>${esc(c.title)}</h4>
+      <div>${esc(c.summary)}</div>
+      ${(Array.isArray(c.evidence) ? c.evidence : []).slice(0, 3).map((e) => `<div class="path">${esc(e)}</div>`).join("")}
+      <div class="label">Query to client</div><div class="note">${esc(c.client_query_note)}</div>
+      <div class="label">Next step</div><div>${esc(c.recommended_action)}</div>
+      <div class="label">Linked in graph</div><div class="who">${esc((c.involves || []).join(" · "))}</div>
+    </div>`).join("");
+}
+
+async function health() {
+  try {
+    const h = await (await fetch("/api/health")).json();
+    $("#health").className = "health " + (h.ok ? "ok" : "bad");
+    $("#health").textContent = h.ok ? `FalkorDB · ${h.nodes} nodes` : "FalkorDB not reachable";
+  } catch { $("#health").className = "health bad"; $("#health").textContent = "backend offline"; }
+}
+
+health(); loadGraph(); loadCases();
+</script>
+</body>
+</html>
